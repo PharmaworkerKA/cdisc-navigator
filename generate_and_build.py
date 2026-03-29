@@ -5,6 +5,7 @@
 を一括で実行する。海外のCDISCトレンドを翻訳・要約して記事化。
 """
 import json
+import time
 import logging
 import sys
 from datetime import datetime
@@ -78,6 +79,8 @@ def run(cfg=None, prm=None):
                     response_text = response_text[4:]
                 response_text = response_text.strip()
             data = json.loads(response_text)
+            if isinstance(data, list):
+                data = data[0]
             category = data["category"]
             keyword = data["keyword"]
         logger.info("選定結果 - カテゴリ: %s, キーワード: %s", category, keyword)
