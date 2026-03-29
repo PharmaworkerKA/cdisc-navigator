@@ -2,9 +2,7 @@ name: CDISC Navigator - Auto Generate
 
 on:
   schedule:
-    - cron: '0 22 * * *'
-    - cron: '0 3 * * *'
-    - cron: '0 10 * * *'
+    - cron: '0 23 * * *'   # JST 8:00
   workflow_dispatch:
 
 permissions:
