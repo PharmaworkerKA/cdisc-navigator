@@ -1,0 +1,36 @@
+{
+  "SDTM実装ガイド": [
+    {"title": "【2026年版】SDTMマッピング完全ガイド — IG 3.4対応", "keyword": "SDTM マッピング IG 3.4", "score": 95},
+    {"title": "SDTM Supplemental Qualifiers (SUPP--)の正しい使い方", "keyword": "SDTM Supplemental Qualifiers", "score": 90},
+    {"title": "SDTMドメインAE/CM/LBのマッピング実践 — SASコード付き", "keyword": "SDTM AE CM LB マッピング SAS", "score": 88}
+  ],
+  "ADaM設計パターン": [
+    {"title": "ADaM BDSデータセット設計 — 派生変数ロジックとSASコード", "keyword": "ADaM BDS 設計 SAS", "score": 93},
+    {"title": "ADTTE（Time-to-Event）データセットの作り方完全ガイド", "keyword": "ADaM ADTTE 作り方", "score": 91},
+    {"title": "ADaM ADSL作成の実務 — 全変数の定義と導出ロジック", "keyword": "ADaM ADSL 作成", "score": 89}
+  ],
+  "Define-XML": [
+    {"title": "Define-XML 2.1作成ガイド — ツール比較とバリデーション", "keyword": "Define-XML 2.1 作成", "score": 92},
+    {"title": "Define-XMLのバリデーションエラー Top10と対処法", "keyword": "Define-XML バリデーション エラー", "score": 87}
+  ],
+  "Pinnacle 21・バリデーション": [
+    {"title": "Pinnacle 21 Enterprise最新版 — 新ルール対応ガイド", "keyword": "Pinnacle 21 Enterprise 最新", "score": 94},
+    {"title": "Pinnacle 21でよく出るエラーコード一覧と解決法", "keyword": "Pinnacle 21 エラー 解決", "score": 92}
+  ],
+  "CDISC最新アップデート": [
+    {"title": "CDISC 360プロジェクト最新進捗 — メタデータ駆動の未来", "keyword": "CDISC 360 メタデータ", "score": 96},
+    {"title": "CDISC CORE Rules Engine — 次世代バリデーションツール", "keyword": "CDISC CORE Rules Engine", "score": 93}
+  ],
+  "規制当局対応": [
+    {"title": "FDA Study Data Technical Conformance Guide 最新版のポイント", "keyword": "FDA Technical Conformance Guide", "score": 94},
+    {"title": "PMDA電子データ提出 — 日本固有の要件まとめ【2026年版】", "keyword": "PMDA 電子データ 提出 2026", "score": 95}
+  ],
+  "SASコード実践": [
+    {"title": "SASマクロでSDTMマッピングを自動化する方法", "keyword": "SAS マクロ SDTM 自動化", "score": 90},
+    {"title": "PROC TRANSPOSE活用術 — ADaM BDS変換の効率化", "keyword": "SAS PROC TRANSPOSE ADaM", "score": 86}
+  ],
+  "海外トレンド翻訳": [
+    {"title": "【翻訳】CDISC年次カンファレンス2026ハイライト", "keyword": "CDISC カンファレンス 2026", "score": 97},
+    {"title": "【翻訳】FDAがCDISC v2.0移行を義務化 — 影響と対策", "keyword": "FDA CDISC v2.0 義務化", "score": 95}
+  ]
+}
