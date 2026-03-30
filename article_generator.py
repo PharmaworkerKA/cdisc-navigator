@@ -23,6 +23,44 @@ except ImportError:
 
     logger = logging.getLogger(__name__)
 
+    def _repair_json_text(text):
+        """不完全なJSON（途中で切れた文字列等）を修復する"""
+        text = text.strip()
+        if "```" in text:
+            text = text.split("```")[1]
+            if text.startswith("json"):
+                text = text[4:]
+            text = text.strip()
+        start = text.find("{")
+        if start < 0:
+            start = text.find("[")
+        if start >= 0:
+            text = text[start:]
+        text = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', text)
+        in_string = False
+        escaped = False
+        for ch in text:
+            if escaped:
+                escaped = False
+                continue
+            if ch == '\\':
+                escaped = True
+                continue
+            if ch == '"':
+                in_string = not in_string
+        if in_string:
+            text = text + '"'
+        open_braces = text.count('{') - text.count('}')
+        open_brackets = text.count('[') - text.count(']')
+        if open_braces > 0 or open_brackets > 0:
+            text = re.sub(r',\s*$', '', text)
+            text = re.sub(r',?\s*"[^"]*"\s*:\s*$', '', text)
+        for _ in range(open_brackets):
+            text += ']'
+        for _ in range(open_braces):
+            text += '}'
+        return text
+
     class ArticleGenerator:
         """Gemini APIを使ったブログ記事生成エンジン（スタンドアロン版）"""
 
@@ -47,8 +85,13 @@ except ImportError:
             else:
                 prompt = self._build_default_prompt(keyword, category)
 
+            from google.genai import types as genai_types
+            gen_config = genai_types.GenerateContentConfig(
+                response_mime_type="application/json",
+                max_output_tokens=16384,
+            )
             response = self.client.models.generate_content(
-                model=self.model_name, contents=prompt
+                model=self.model_name, contents=prompt, config=gen_config
             )
             article = self._parse_response(response.text)
             article["keyword"] = keyword
@@ -84,19 +127,24 @@ JSON形式で生成してください。
             return _re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', text)
 
         def _parse_response(self, response_text):
-            json_match = re.search(r"```json\s*(.*?)\s*```", response_text, re.DOTALL)
+            repaired = _repair_json_text(response_text)
             try:
-                if json_match:
-                    data = json.loads(self._fix_invalid_escapes(json_match.group(1)), strict=False)
-                else:
-                    cleaned = response_text.strip()
-                    start = cleaned.find("{")
-                    end = cleaned.rfind("}") + 1
-                    if start >= 0 and end > start:
-                        cleaned = cleaned[start:end]
-                    data = json.loads(self._fix_invalid_escapes(cleaned), strict=False)
+                data = json.loads(repaired, strict=False)
             except json.JSONDecodeError as e:
-                raise ValueError(f"JSONパース失敗: {e}") from e
+                # フォールバック: 旧方式も試す
+                json_match = re.search(r"```json\s*(.*?)\s*```", response_text, re.DOTALL)
+                try:
+                    if json_match:
+                        data = json.loads(self._fix_invalid_escapes(json_match.group(1)), strict=False)
+                    else:
+                        cleaned = response_text.strip()
+                        start = cleaned.find("{")
+                        end = cleaned.rfind("}") + 1
+                        if start >= 0 and end > start:
+                            cleaned = cleaned[start:end]
+                        data = json.loads(self._fix_invalid_escapes(cleaned), strict=False)
+                except json.JSONDecodeError:
+                    raise ValueError(f"JSONパース失敗: {e}") from e
 
             required = ["title", "content", "meta_description", "tags", "slug"]
             missing = [f for f in required if f not in data]

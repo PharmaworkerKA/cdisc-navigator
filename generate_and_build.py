@@ -5,6 +5,7 @@
 を一括で実行する。海外のCDISCトレンドを翻訳・要約して記事化。
 """
 import json
+import re
 import time
 import logging
 import sys
@@ -22,6 +23,68 @@ logger = logging.getLogger(__name__)
 
 import config
 import prompts
+
+
+def repair_json_text(text):
+    """不完全なJSON（途中で切れた文字列等）を修復する"""
+    text = text.strip()
+
+    # コードフェンスを除去
+    if "```" in text:
+        text = text.split("```")[1]
+        if text.startswith("json"):
+            text = text[4:]
+        text = text.strip()
+
+    # JSON部分のみ抽出
+    start = text.find("{")
+    if start < 0:
+        start = text.find("[")
+    if start >= 0:
+        text = text[start:]
+
+    # 無効なエスケープシーケンスを修正
+    text = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', text)
+
+    # 未終端の文字列を閉じる
+    # 開いている引用符を検出して閉じる
+    in_string = False
+    escaped = False
+    last_quote_pos = -1
+    for i, ch in enumerate(text):
+        if escaped:
+            escaped = False
+            continue
+        if ch == '\\':
+            escaped = True
+            continue
+        if ch == '"':
+            if in_string:
+                in_string = False
+            else:
+                in_string = True
+                last_quote_pos = i
+
+    if in_string:
+        text = text + '"'
+
+    # 括弧のバランスを修復
+    open_braces = text.count('{') - text.count('}')
+    open_brackets = text.count('[') - text.count(']')
+
+    # 末尾の不完全なキー/値ペアを除去してから閉じる
+    if open_braces > 0 or open_brackets > 0:
+        # 末尾のカンマや不完全要素を除去
+        text = re.sub(r',\s*$', '', text)
+        # 未完成のキー（"key": まで書かれて値がない）を除去
+        text = re.sub(r',?\s*"[^"]*"\s*:\s*$', '', text)
+
+    for _ in range(open_brackets):
+        text += ']'
+    for _ in range(open_braces):
+        text += '}'
+
+    return text
 
 
 def run(cfg=None, prm=None):
@@ -71,13 +134,15 @@ def run(cfg=None, prm=None):
                     f"カテゴリ一覧:\n{categories_text}\n\n"
                     'JSON形式のみ: {"category": "カテゴリ名", "keyword": "キーワード"}'
                 )
-            response = client.models.generate_content(model=cfg.GEMINI_MODEL, contents=prompt)
-            response_text = response.text.strip()
-            if "```" in response_text:
-                response_text = response_text.split("```")[1]
-                if response_text.startswith("json"):
-                    response_text = response_text[4:]
-                response_text = response_text.strip()
+            from google.genai import types as genai_types
+            gen_config = genai_types.GenerateContentConfig(
+                response_mime_type="application/json",
+                max_output_tokens=16384,
+            )
+            response = client.models.generate_content(
+                model=cfg.GEMINI_MODEL, contents=prompt, config=gen_config
+            )
+            response_text = repair_json_text(response.text)
             data = json.loads(response_text, strict=False)
             if isinstance(data, list):
                 data = data[0]
@@ -90,7 +155,7 @@ def run(cfg=None, prm=None):
 
     # ステップ2: 記事生成
     logger.info("ステップ2: 記事生成（海外トレンド翻訳・要約）")
-    max_retries = 3
+    max_retries = 5
     article = None
     for attempt in range(1, max_retries + 1):
         try:
