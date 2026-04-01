@@ -5,8 +5,8 @@ blog_engineの共通モジュールを使用し、フォールバックとして
 import sys
 from pathlib import Path
 
-# blog_engine へのフォールバックimport
-_engine_path = str(Path(__file__).parent.parent)
+# blog_engine へのフォールバックimport（blog_engineはリポジトリルートにチェックアウトされる）
+_engine_path = str(Path(__file__).parent)
 if _engine_path not in sys.path:
     sys.path.insert(0, _engine_path)
 
@@ -36,6 +36,7 @@ except ImportError:
             start = text.find("[")
         if start >= 0:
             text = text[start:]
+        text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
         text = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', text)
         in_string = False
         escaped = False
@@ -122,8 +123,9 @@ JSON形式で生成してください。
 
         @staticmethod
         def _fix_invalid_escapes(text):
-            """JSON内の無効なエスケープシーケンスを修正"""
+            """JSON内の無効なエスケープシーケンスと制御文字を修正"""
             import re as _re
+            text = _re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
             return _re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', text)
 
         def _parse_response(self, response_text):

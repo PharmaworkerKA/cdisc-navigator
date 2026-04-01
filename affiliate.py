@@ -9,7 +9,7 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-_engine_path = str(Path(__file__).parent.parent)
+_engine_path = str(Path(__file__).parent)
 if _engine_path not in sys.path:
     sys.path.insert(0, _engine_path)
 

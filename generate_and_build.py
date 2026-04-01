@@ -13,7 +13,6 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 logging.basicConfig(
     level=logging.INFO,
@@ -42,6 +41,9 @@ def repair_json_text(text):
         start = text.find("[")
     if start >= 0:
         text = text[start:]
+
+    # JSON文字列内の制御文字を除去（タブ・改行以外）
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
 
     # 無効なエスケープシーケンスを修正
     text = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', text)
@@ -191,7 +193,7 @@ def run(cfg=None, prm=None):
     # ステップ2.7: アイキャッチ画像挿入
     logger.info("ステップ2.7: アイキャッチ画像挿入")
     try:
-        eyecatch_path = str(Path(__file__).parent.parent)
+        eyecatch_path = str(Path(__file__).parent / "blog_engine")
         if eyecatch_path not in sys.path:
             sys.path.insert(0, eyecatch_path)
         from eyecatch import add_eyecatch_to_article

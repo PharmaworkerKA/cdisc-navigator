@@ -19,7 +19,6 @@ from pathlib import Path
 
 # blog_engine へのフォールバックimport パス
 sys.path.insert(0, str(Path(__file__).parent))
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 logging.basicConfig(
     level=logging.INFO,
