@@ -22,7 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: blog_engineをチェックアウト
+      - name: Checkout blog_engine
         uses: actions/checkout@v6
         with:
           repository: MuscleLove-777/blog-engine
