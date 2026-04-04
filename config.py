@@ -9,11 +9,11 @@ BLOG_DESCRIPTION = (
     "CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。"
     "海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。"
 )
-BLOG_URL = "https://musclelove-777.github.io/cdisc-navigator"
+BLOG_URL = "https://pharmaworkerka.github.io/cdisc-navigator"
 BLOG_TAGLINE = "CDISC標準の実務情報を日本語で発信"
 BLOG_LANGUAGE = "ja"
 
-GITHUB_REPO = "MuscleLove-777/cdisc-navigator"
+GITHUB_REPO = "PharmaworkerKA/cdisc-navigator"
 GITHUB_BRANCH = "gh-pages"
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
