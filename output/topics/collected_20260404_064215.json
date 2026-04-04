@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-04-04T06:42:15.771300",
+  "total_count": 5,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "モデルベース開発が拓く、オンコロジー領域における最適用量選択の確信度",
+      "keyword": "モデルベース開発, MIDD, オンコロジー, 用量選択, 臨床データ解析, 規制提出, ADaM"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 65,
+      "category": "規制当局対応",
+      "blog_title": "承認審査における臨床データ提出のポイント",
+      "keyword": "承認審査, 臨床データ提出, 規制当局, PMDA, FDA"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "Charles River社に学ぶPKデータワークフロー改善とCDISC対応",
+      "keyword": "PKデータ, ワークフロー改善, CRO, CDISC, データ管理, SDTM, ADaM"
+    },
+    {
+      "title": "Quantitative Systems Pharmacology Conference",
+      "url": "https://www.certara.com/conference/quantitative-systems-pharmacology-conference/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "海外トレンド翻訳",
+      "blog_title": "QSPカンファレンスから学ぶ、次世代の創薬データ活用術",
+      "keyword": "QSP, システム薬理学, 創薬, データ活用, モデリング"
+    },
+    {
+      "title": "Certara IQ™Global Roadshow",
+      "url": "https://www.certara.com/live-events/certara-iq-global-roadshow/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 45,
+      "category": "海外トレンド翻訳",
+      "blog_title": "Certara IQ™ Global Roadshowから読み解く最新のデータ解析トレンド",
+      "keyword": "Certara, 医薬品開発, データ解析, 海外トレンド, 薬物動態"
+    }
+  ]
+}

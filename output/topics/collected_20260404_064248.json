@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-04T06:42:48.122198",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【規制トレンド】オンコロジー領域におけるモデル予測を活用した用量選択の信頼性向上",
+      "keyword": "MIDD, オンコロジー, 用量設定, 規制科学"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【事例に学ぶ】Biohaven社のNurtec™開発物語と臨床データ戦略",
+      "keyword": "医薬品開発事例, 規制戦略, 臨床試験"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 65,
+      "category": "規制当局対応",
+      "blog_title": "承認審査における臨床データ提出の重要ポイント",
+      "keyword": "承認審査, 臨床データ提出"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "Charles River社における薬物動態（PK）ワークフロー効率化の秘訣",
+      "keyword": "PKデータ管理, 臨床データワークフロー, CRO"
+    }
+  ]
+}
