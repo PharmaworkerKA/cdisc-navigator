@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-05T05:11:19.509446",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】オンコロジー領域におけるモデル活用による用量選択の確実性向上",
+      "keyword": "MIDD, モデルインフォームド, オンコロジー, 用量選択, 規制科学, FDA"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "承認審査をスムーズに進めるための臨床データ提出のポイント",
+      "keyword": "承認審査, 臨床データ提出, PMDA, FDA, 規制当局"
+    },
+    {
+      "title": "Certara IQ™Global Roadshow",
+      "url": "https://www.certara.com/live-events/certara-iq-global-roadshow/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "Certara IQ™グローバルロードショーから見る最新の臨床開発トレンド",
+      "keyword": "Certara, 臨床開発トレンド, 薬物動態, 規制科学"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "チャールズリバー社における薬物動態ワークフロー改善の取り組み",
+      "keyword": "薬物動態, PKデータ, 臨床データ管理, CRO, データ標準"
+    }
+  ]
+}
