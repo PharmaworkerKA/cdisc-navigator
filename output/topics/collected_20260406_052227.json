@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-04-06T05:22:27.719114",
+  "total_count": 5,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "癌領域の用量選択：モデル予測を活用し、規制当局の「確信」を得る方法",
+      "keyword": "MIDD, 癌治療, 用量選択, 規制当局"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "チャールズリバー社の事例に学ぶ、PKデータ解析ワークフロー効率化の秘訣",
+      "keyword": "PKデータ, ワークフロー改善, CRO事例"
+    },
+    {
+      "title": "Quantitative Systems Pharmacology Conference",
+      "url": "https://www.certara.com/conference/quantitative-systems-pharmacology-conference/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 48,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】QSP国際会議で見えた、モデルベース創薬の最前線とデータ活用の未来",
+      "keyword": "QSP, システム薬理学, モデルベース創薬"
+    },
+    {
+      "title": "Certara IQ™Global Roadshow",
+      "url": "https://www.certara.com/live-events/certara-iq-global-roadshow/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 45,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】Certara IQ™ グローバルロードショーから見る最新の臨床データ解析トレンド",
+      "keyword": "Certara IQ, 臨床データ解析"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 42,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】Biohaven社Nurtec™開発事例に学ぶ、成功する医薬品開発の舞台裏",
+      "keyword": "医薬品開発, 臨床試験事例, Nurtec"
+    }
+  ]
+}

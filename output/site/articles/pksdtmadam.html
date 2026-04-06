@@ -6,29 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
-    <title>CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。</title>
+    <title>PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！ | CDISC Standards Navigator</title>
 
     
-    <meta name="description" content="CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。">
+    <meta name="description" content="">
     <meta name="author" content="CDISC Standards Navigator">
-    <link rel="canonical" href="https://pharmaworkerka.github.io/cdisc-navigator">
+    <link rel="canonical" href="https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html">
 
     
     <meta property="og:site_name" content="CDISC Standards Navigator">
-    <meta property="og:title" content="CDISC Standards Navigator">
-    <meta property="og:description" content="CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pharmaworkerka.github.io/cdisc-navigator">
+    <meta property="og:title" content="PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html">
     <meta property="og:locale" content="ja_JP">
 
     
-    
+    <meta property="og:image" content="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80">
 
     
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CDISC Standards Navigator">
-    <meta name="twitter:description" content="CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。">
-    
+    <meta name="twitter:title" content="PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80">
 
     
     <link rel="alternate" type="application/rss+xml" title="CDISC Standards Navigator" href="https://pharmaworkerka.github.io/cdisc-navigator/feed.xml">
@@ -54,16 +54,22 @@
 
     
     
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "CDISC Standards Navigator",
-        "description": "CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。",
-        "url": "https://pharmaworkerka.github.io/cdisc-navigator"
-    }
-    </script>
-    
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！",
+    "description": "",
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "author": {"@type": "Organization", "name": "CDISC Standards Navigator"},
+    "publisher": {"@type": "Organization", "name": "CDISC Standards Navigator"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html"}
+    ,"image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80"
+    ,"keywords": "自動生成, ブログ, 記事, SEO, 最新"
+}
+</script>
+
 
     <style>
         /* =============================================
@@ -663,12 +669,6 @@
                 <nav class="site-nav" id="siteNav">
                     <a href="https://pharmaworkerka.github.io/cdisc-navigator/index.html">ホーム</a>
                     
-
-<a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html">規制当局対応</a>
-
-<a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html">SDTM実装ガイド</a>
-
-
                     <a href="https://pharmaworkerka.github.io/cdisc-navigator/feed.xml">RSS</a>
                 </nav>
 
@@ -686,102 +686,134 @@
     
     <main class="container">
         
-
-<section style="padding:3.5rem 0 2.5rem;text-align:center;">
-    <h1 style="margin-bottom:0.75rem;">CDISC Standards Navigator</h1>
-    <p class="text-muted" style="font-size:clamp(0.95rem,1.2vw+0.5rem,1.15rem);max-width:600px;margin:0 auto 1.5rem;line-height:1.7;">CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。</p>
-    
-    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.5rem;">
-        
-        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="tag" style="font-size:0.82rem;padding:0.3em 0.85em;">規制当局対応 <span style="opacity:0.6;margin-left:0.25em;">(2)</span></a>
-        
-        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html" class="tag" style="font-size:0.82rem;padding:0.3em 0.85em;">SDTM実装ガイド <span style="opacity:0.6;margin-left:0.25em;">(1)</span></a>
-        
-    </div>
-    
-</section>
-
 <div class="layout-main">
     <div class="content-area">
-        
-        <div class="card-grid">
+        <nav class="breadcrumb" aria-label="パンくずリスト">
+            <a href="https://pharmaworkerka.github.io/cdisc-navigator/index.html">ホーム</a>
+            <span class="breadcrumb-sep">/</span>
             
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/oncology-dose-setting-midd-regulatory-science.html">オンコロジー用量設定：MIDDと規制科学最前線</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-06</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="category-badge">規制当局対応</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">MIDD</span><span class="tag">オンコロジー</span><span class="tag">用量設定</span></div>
-                </div>
-            </article>
+            <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html">SDTM実装ガイド</a>
+            <span class="breadcrumb-sep">/</span>
             
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/middfda.html">MIDDとオンコロジー用量選択：FDA規制科学の最前線</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-06</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="category-badge">規制当局対応</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">自動生成</span><span class="tag">ブログ</span><span class="tag">記事</span></div>
-                </div>
-            </article>
+            <span>PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！</span>
+        </nav>
+
+        <article>
             
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html">PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-06</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html" class="category-badge">SDTM実装ガイド</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">自動生成</span><span class="tag">ブログ</span><span class="tag">記事</span></div>
-                </div>
-            </article>
             
-        </div>
-        
+            <div class="article-hero" style="background: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
+                <div class="article-hero-overlay"></div>
+            </div>
+            
+
+            <header class="article-header">
+                <h1 class="article-title">PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！</h1>
+                <div class="article-meta">
+                    <span>2026-04-06</span>
+                    <span class="reading-time">3分で読める</span>
+                    <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html" class="category-badge">SDTM実装ガイド</a>
+                </div>
+                <div class="card-tags mt-1"><span class="tag">自動生成</span><span class="tag">ブログ</span><span class="tag">記事</span><span class="tag">SEO</span><span class="tag">最新</span></div>
+            </header>
+
+            
+
+            
+            <details class="toc-container" open>
+                <summary class="toc-title" style="cursor:pointer;user-select:none;">目次</summary>
+                <div class="toc"><span class="toctitle">目次</span><ul>
+<li><a href="#_1">この記事でわかること</a></li>
+<li><a href="#_2">結論から言うと</a></li>
+<li><a href="#pk">PKデータとは？</a></li>
+<li><a href="#_3">実務での使い方・実装手順</a><ul>
+<li><a href="#sdtmpkpc">SDTMマッピング：PKデータ（薬物濃度）をPCドメインへ</a></li>
+</ul>
+</li>
+<li><a href="#cdisc">CDISC実務に役立つリソース</a></li>
+</ul>
+</div>
+
+            </details>
+            
+
+            <div class="article-body"><h1 id="pksdtmadam">PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！</h1>
+<p><img alt="PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！" src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80" /></p>
+<p><em>Photo from <a href="https://unsplash.com/">Unsplash</a></em></p>
+<p>CDISC Standards Navigatorへようこそ！ベテランSASプログラマーの私が、PKデータ（薬物動態データ）のSDTMマッピング、ADaM解析、そして申請ワークフロー改善のノウハウを解説します。FDAやPMDAの最新動向と実践的なSASコード例を交えながら、皆様のCDISCデータ提出を強力にサポートします。</p>
+<h2 id="_1">この記事でわかること</h2>
+<ul>
+<li>PKデータ（薬物動態データ）のSDTMマッピングとADaM解析の基本</li>
+<li>FDA/PMDA申請におけるPKデータのCDISC標準対応のポイント</li>
+<li>SDTMおよびADaMを活用したPKデータ処理のワークフロー改善策</li>
+<li>具体的なSASコード例と実装上の注意点</li>
+<li>最新の海外規制動向と日本の実務への落とし込み方</li>
+</ul>
+<h2 id="_2">結論から言うと</h2>
+<p>PKデータは、SDTMではPC（Pharmacokinetics Concentration）ドメインを中心に、ADaMではADPC（Analysis Data for Pharmacokinetics Concentration）やADPP（Analysis Data for Pharmacokinetics Parameters）ドメインで標準化します。この標準化は、規制当局（FDAやPMDA）の審査をスムーズにし、データ品質と申請ワークフローを劇的に改善する鍵となります。本記事では、具体的なSDTMマッピングとADaM解析のSASコード例、最新の規制動向を通じて、皆様の実務に役立つ情報をお届けします。</p>
+<h2 id="pk">PKデータとは？</h2>
+<p>薬物動態（Pharmacokinetics; PK）データとは、薬物が体内でどのように吸収、分布、代謝、排泄されるか（ADME）を示すデータです。臨床試験では、被験者から採取された血液や尿中の薬物濃度を測定し、その経時変化を分析することで、薬物の効果や安全性を評価します。主なデータ項目には、薬物濃度、採血時間、投与情報、被験者情報などがあります。これらのPKデータをCDISC（Clinical Data Interchange Standards Consortium）標準に準拠して提出することは、申請資料の一貫性を保ち、効率的な審査、そしてデータの国際的な共有を可能にするために不可欠です。</p>
+<h2 id="_3">実務での使い方・実装手順</h2>
+<h3 id="sdtmpkpc">SDTMマッピング：PKデータ（薬物濃度）をPCドメインへ</h3>
+<p>薬物濃度データは、SDTM（Study Data Tabulation Model）のPC（Pharmacokinetics Concentration）ドメインにマッピングします。PCドメインは、被験者から採取された生体サンプル中の薬物濃度とその関連情報を記録するために設計されています。</p>
+<p><strong>主要なSDTM PC変数とマッピング例:</strong>
+- <code>USUBJID</code>: 被験者識別子
+- <code>PCSEQ</code>: レコード内のシーケンス番号
+- <code>PCDTC</code>: 採血日時
+- <code>PCTPT</code>: 採血時点（例: PREDOSE, 1HR POSTDOSE）
+- <code>PCORRES</code>: 生の薬物濃度結果（文字列）
+- <code>PCORRESU</code>: <code>PCORRES</code>の単位
+- <code>PCSTRESN</code>: 標準化された薬物濃度結果（数値）
+- <code>PCSTRESU</code>: <code>PCSTRESN</code>の単位
+- <code>PCSPCCAT</code>: 検体カテゴリ（例: PLASMA）
+- <code>PCSPEC</code>: 検体種類（例: PLASMA）
+- <code>PCTEST</code>, <code>PCTESTCD</code>: 検査名とコード（例: 'Analyte Concentration', 'ANACONC'）</p>
+<p><strong>SASコード例（SDTM PCドメイン作成）:</strong>
+```sas
+/<em> 生PKデータ例 </em>/
+data raw_pk_data;
+    infile datalines delimiter=',';
+    input SubjectID $ SampleTime $ Analyte $ Concentration SampleUnit $ StudyDay $ TimePoint $;
+    datalines;
+SUBJ001,00:00,DrugA,10.5,ng/mL,Day1,PREDOSE
+SUBJ001,01:00,DrugA,25.3,ng/mL,Day1,1HR POSTDOSE
+SUBJ001,02:00,DrugA,30.1,ng/mL,Day1,2HR POSTDOSE
+SUBJ002,00:00,DrugA,9.8,ng/mL,Day1,PREDOSE
+SUBJ002,01:00,DrugA,22.1,ng/mL,Day1,1HR POSTDOSE
+;
+run;</p>
+<p>/<em> SDTM PCドメインへのマッピング </em>/
+data sdtm.pc;
+    set raw_pk_data;
+    length USUBJID $ 8 PCSEQ 8 PCDTC $ 20 PCTPT $ 20 PCORRES $ 20 PCORRESU $ 8 PCSPCCAT $ 20 PCSPEC $ 20;
+    length PCTEST $ 40 PCTESTCD $ 8 PCSTRESN 8 PCSTRESU $ 8;</p>
+<pre><code>USUBJID = SubjectID;
+PCSEQ = _N_; /* 各被験者・タイムポイントごとにユニークな値 */
+
+/* PCDTCはベースライン日とSampleTimeを結合して生成 */
+/* 例: ベースライン日が2023-01-01の場合 */
+PCDTC =
+</code></pre>
+<h2 id="cdisc">CDISC実務に役立つリソース</h2>
+<p>この記事の内容をさらに深めるために、以下のリソースが役立ちます。</p>
+<ul>
+<li><strong><a href="https://www.amazon.co.jp?tag=musclelove07-22">Amazon CDISC書籍</a></strong> - CDISC・臨床データ標準の参考書</li>
+<li><strong><a href="https://www.udemy.com">Udemy SAS講座</a></strong> - 動画で学ぶCDISC実装</li>
+<li><strong><a href="https://www.rakuten.co.jp">楽天 医薬品開発書籍</a></strong> - 製薬・臨床開発の参考書</li>
+</ul>
+<p><em>上記リンクからご利用いただくと、サイト運営の支援になります。</em></p></div>
+
+            
+
+            <div class="share-buttons">
+                <a class="share-btn share-btn-twitter" href="https://twitter.com/intent/tweet?url=https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html&text=PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！" target="_blank" rel="noopener noreferrer">X でシェア</a>
+                <a class="share-btn share-btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a class="share-btn share-btn-hatena" href="https://b.hatena.ne.jp/add?mode=confirm&url=https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html&title=PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！" target="_blank" rel="noopener noreferrer">はてブ</a>
+                <a class="share-btn share-btn-line" href="https://social-plugins.line.me/lineit/share?url=https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html" target="_blank" rel="noopener noreferrer">LINE</a>
+            </div>
+        </article>
 
         
     </div>
-
-    <aside class="sidebar">
-        <div class="sidebar-widget">
-            <h3 class="sidebar-widget-title">カテゴリ</h3>
-            
-            <ul class="sidebar-category-list">
-                
-                <li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html">規制当局対応<span class="sidebar-category-count">2</span></a></li>
-                
-                <li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html">SDTM実装ガイド<span class="sidebar-category-count">1</span></a></li>
-                
-            </ul>
-            
-        </div>
-        <div class="sidebar-widget">
-            <h3 class="sidebar-widget-title">このブログについて</h3>
-            <p class="text-muted" style="font-size:0.88rem;line-height:1.7;">CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。</p>
-        </div>
-        
-    </aside>
 </div>
 
     </main>
@@ -799,13 +831,7 @@
                 </div>
                 <div class="footer-section">
                     <h4>カテゴリ</h4>
-                    <ul class="footer-links">
-
-<li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html">規制当局対応（2）</a></li>
-
-<li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html">SDTM実装ガイド（1）</a></li>
-
-</ul>
+                    <ul class="footer-links"></ul>
                 </div>
                 <div class="footer-section">
                     <h4>リンク</h4>
