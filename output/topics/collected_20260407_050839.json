@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-07T05:08:39.319832",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "ADaM設計パターン",
+      "blog_title": "【翻訳】オンコロジー用量選択におけるモデル活用：ADaMデータの役割と信頼性",
+      "keyword": "MIDD, オンコロジー, 用量選択, ADaM, 規制当局"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【PMDA提出】日本の承認審査におけるCDISCデータ標準の重要性",
+      "keyword": "PMDA, 承認審査, 規制提出, CDISC"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 65,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】チャールズリバー社における薬物動態ワークフロー改善事例：CDISCデータの活用",
+      "keyword": "PKデータ, ワークフロー, CDISC, SDTM PC"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】バイオヘイブン社Nurtec™開発物語：成功事例から学ぶデータ標準化の重要性",
+      "keyword": "医薬品開発, 事例研究, データ標準化, 規制提出"
+    }
+  ]
+}
