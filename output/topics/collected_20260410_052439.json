@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-04-10T05:24:39.087171",
+  "total_count": 3,
+  "topics": [
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 85,
+      "category": "ADaM設計パターン",
+      "blog_title": "【事例紹介】Charles River社のPK解析ワークフロー最適化に見るSDTM/ADaM活用術",
+      "keyword": "PK解析, 薬物動態, ワークフロー, SDTM, ADaM, CRO, SAS"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 80,
+      "category": "ADaM設計パターン",
+      "blog_title": "【MIDD最前線】腫瘍領域におけるモデル予測を活用した用量選択とADaMデータ分析",
+      "keyword": "MIDD, 用量選択, 腫瘍, ADaM, 規制当局, 臨床試験"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【PMDA対応】承認審査における臨床データ提出の留意点",
+      "keyword": "承認審査, 臨床データ提出, PMDA, 規制当局"
+    }
+  ]
+}
