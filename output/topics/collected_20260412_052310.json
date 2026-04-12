@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-12T05:23:10.847119",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【MIDD】オンコロジー領域におけるデータ駆動型用量選択と規制当局対応",
+      "keyword": "MIDD, オンコロジー, 用量選択, 臨床データ解析, ADaM, 規制当局"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【PMDA/FDA】承認審査における臨床データ提出の規制要件と戦略",
+      "keyword": "承認審査, 臨床データ提出, 規制当局, PMDA, FDA"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "SDTM実装ガイド",
+      "blog_title": "Charles River社に見るPKデータ標準化：SDTM実装ガイドに基づくワークフロー改善",
+      "keyword": "PKデータ, SDTM, データ管理, 臨床試験, ワークフロー最適化"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "規制当局対応",
+      "blog_title": "医薬品開発の成功事例：Nurtec™に見る規制提出への道筋",
+      "keyword": "医薬品開発, 規制戦略, 臨床試験, 承認プロセス, バイオファーマ"
+    }
+  ]
+}
