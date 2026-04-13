@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-13T05:40:15.488298",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】成功の軌跡：Biohaven社Nurtec™の医薬品開発と規制当局申請",
+      "keyword": "医薬品開発, 規制申請, ケーススタディ, Nurtec"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】医薬品承認審査プロセスにおける臨床データ提出の戦略",
+      "keyword": "承認審査, 臨床データ提出, PMDA, FDA"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】オンコロジー領域におけるMIDD：用量選択の科学的根拠と規制当局対応",
+      "keyword": "MIDD, モデルインフォームド, 用量選択, オンコロジー, 規制当局"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "【翻訳】Charles River事例：薬物動態（PK）ワークフローの効率化とデータ品質向上",
+      "keyword": "PKデータ, 薬物動態, 臨床データ管理, CRO"
+    }
+  ]
+}
