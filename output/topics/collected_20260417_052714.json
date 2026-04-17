@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-04-17T05:27:14.751797",
+  "total_count": 3,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】モデル情報に基づくがん領域の用量選択：規制当局の視点",
+      "keyword": "MIDD, 癌治療薬, 用量選択, 規制科学"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 65,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】承認審査における臨床データ提出の重要性と課題",
+      "keyword": "承認審査, 規制提出, 臨床データ"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "【翻訳】PKデータ解析ワークフローの効率化とCDISC対応",
+      "keyword": "PKデータ, ワークフロー, データ管理, CDISC"
+    }
+  ]
+}
