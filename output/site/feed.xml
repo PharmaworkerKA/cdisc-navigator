@@ -5,7 +5,7 @@
     <link>https://pharmaworkerka.github.io/cdisc-navigator</link>
     <description>CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 05:28:28 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:07:42 +0900</lastBuildDate>
     <atom:link href="https://pharmaworkerka.github.io/cdisc-navigator/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>オンコロジー用量設定：MIDDと規制科学最前線</title>
@@ -13,7 +13,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/oncology-dose-setting-midd-regulatory-science.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>MIDDとオンコロジー用量選択：FDA規制科学の最前線</title>
@@ -21,7 +21,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/middfda.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！</title>
@@ -29,7 +29,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html</guid>
       <description></description>
       <category>SDTM実装ガイド</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>MIDD×ADaM！オンコロジー用量選択の規制戦略</title>
@@ -37,7 +37,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-oncology-dose-selection-adam-regulatory.html</guid>
       <description></description>
       <category>ADaM設計パターン</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>MIDDで癌治療の用量選択を最適化：規制当局と臨床データ活用の最新動向</title>
@@ -45,7 +45,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-cdisc.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>承認審査と規制当局への臨床データ提出：PMDA/FDA要件完全ガイド</title>
@@ -53,7 +53,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/---pmda-fda-.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>PK解析をCDISC標準で効率化！SDTM・ADaM・SASワークフロー徹底解説</title>
@@ -61,7 +61,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/pk-analysis-cdisc-sdtm-adam-sas-workflow.html</guid>
       <description></description>
       <category>ADaM設計パターン</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>PMDA承認審査：臨床データ提出と規制対応ガイド</title>
@@ -69,7 +69,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/pmda-clinical-data-submission-regulatory-compliance-guide.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>MIDDで加速！オンコロジー用量選択とADaM解析：日米欧規制当局の最新動向</title>
@@ -77,7 +77,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-oncology-dose-selection-adam-regulatory-update.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>PMDA・FDA承認審査を乗り切る！臨床データ提出の最新要件と実務</title>
@@ -85,7 +85,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/pmdafda.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>FDA/PMDA 承認審査：臨床データ提出の最新要件と実務</title>
@@ -93,7 +93,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/fdapmda.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>臨床データの承認申請：PMDA・FDA規制提出のすべて</title>
@@ -101,7 +101,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/pmdafda.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>MIDDで加速！がん領域用量選択とFDA規制科学の最前線</title>
@@ -109,7 +109,7 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-fda-regulatory-science.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
       <title>MIDDと規制科学：癌治療薬の用量選択を最適化するCDISC活用術</title>
@@ -117,7 +117,15 @@
       <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-science-cdisc.html</guid>
       <description></description>
       <category>規制当局対応</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>CDISCデータで加速する承認審査：PMDA・FDA規制対応の最前線</title>
+      <link>https://pharmaworkerka.github.io/cdisc-navigator/articles/cdisc-data-pmda-fda-approval-submission.html</link>
+      <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/cdisc-data-pmda-fda-approval-submission.html</guid>
+      <description></description>
+      <category>規制当局対応</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

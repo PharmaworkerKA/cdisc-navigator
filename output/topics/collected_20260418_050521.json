@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-18T05:05:21.746709",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "承認審査における臨床データ提出の落とし穴と対策",
+      "keyword": "承認審査, 臨床データ提出, 規制対応, PMDA, FDA"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "Nurtec開発に見る：成功への臨床データ規制戦略",
+      "keyword": "医薬品開発, Nurtec, 規制当局, 臨床データ提出, 事例研究"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 68,
+      "category": "規制当局対応",
+      "blog_title": "癌領域のMIDD：規制当局が求める用量選択の信頼性",
+      "keyword": "MIDD, 癌治療, 用量選択, 規制当局, 臨床データ活用"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理",
+      "blog_title": "CROが実践するPKデータ管理効率化の秘訣",
+      "keyword": "PKデータ, データ管理, CRO, 臨床試験, ワークフロー"
+    }
+  ]
+}
