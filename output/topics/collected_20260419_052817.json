@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-04-19T05:28:17.009064",
+  "total_count": 3,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 78,
+      "category": "規制当局対応",
+      "blog_title": "モデルインフォームド薬物開発(MIDD)におけるがん用量選択の信頼性：規制当局の期待とデータ提出のコツ",
+      "keyword": "MIDD, がん領域, 用量選択, 規制当局, データ提出, 信頼性"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "承認審査プロセスにおける臨床データ提出：PMDA/FDA要件のポイント",
+      "keyword": "承認審査, 臨床データ提出, PMDA, FDA, 規制当局"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【海外トレンド】Charles River社に学ぶPKワークフロー効率化とデータ標準化のヒント",
+      "keyword": "PKデータ, ワークフロー改善, データ標準化, Charles River, 海外事例"
+    }
+  ]
+}
