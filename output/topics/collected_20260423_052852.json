@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-23T05:28:52.093240",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "PMDA承認審査：臨床データ提出の成功戦略と重要ポイント",
+      "keyword": "PMDA, 承認審査, 臨床データ提出, 規制対応, GCP"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "オンコロジー用量選択におけるMIDDの役割：規制当局の期待とデータ活用",
+      "keyword": "MIDD, モデル解析, オンコロジー, 用量選択, 規制要件, FDA"
+    },
+    {
+      "title": "SCDM EMEA 2026",
+      "url": "https://www.certara.com/conference/scdm-emea/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "海外トレンド翻訳",
+      "blog_title": "SCDM EMEA 2026開催！臨床データ管理の最新動向と未来予測",
+      "keyword": "SCDM, 臨床データ管理, EMEA, カンファレンス, データマネジメント"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 45,
+      "category": "SASコード実践",
+      "blog_title": "CRO事例：Charles River社のPKデータ解析ワークフロー効率化戦略",
+      "keyword": "PKデータ, 薬物動態, ワークフロー最適化, CRO, SAS解析"
+    }
+  ]
+}
