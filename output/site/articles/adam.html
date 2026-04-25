@@ -6,29 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
-    <title>CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。</title>
+    <title>腫瘍学ADaM：用量選択とモデル駆動型の設計戦略 | CDISC Standards Navigator</title>
 
     
-    <meta name="description" content="CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。">
+    <meta name="description" content="">
     <meta name="author" content="CDISC Standards Navigator">
-    <link rel="canonical" href="https://pharmaworkerka.github.io/cdisc-navigator">
+    <link rel="canonical" href="https://pharmaworkerka.github.io/cdisc-navigator/articles/adam.html">
 
     
     <meta property="og:site_name" content="CDISC Standards Navigator">
-    <meta property="og:title" content="CDISC Standards Navigator">
-    <meta property="og:description" content="CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pharmaworkerka.github.io/cdisc-navigator">
+    <meta property="og:title" content="腫瘍学ADaM：用量選択とモデル駆動型の設計戦略">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://pharmaworkerka.github.io/cdisc-navigator/articles/adam.html">
     <meta property="og:locale" content="ja_JP">
 
     
-    
+    <meta property="og:image" content="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80">
 
     
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CDISC Standards Navigator">
-    <meta name="twitter:description" content="CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。">
-    
+    <meta name="twitter:title" content="腫瘍学ADaM：用量選択とモデル駆動型の設計戦略">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80">
 
     
     <link rel="alternate" type="application/rss+xml" title="CDISC Standards Navigator" href="https://pharmaworkerka.github.io/cdisc-navigator/feed.xml">
@@ -54,16 +54,23 @@
 
     
     
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "CDISC Standards Navigator",
-        "description": "CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。",
-        "url": "https://pharmaworkerka.github.io/cdisc-navigator"
-    }
-    </script>
-    
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "腫瘍学ADaM：用量選択とモデル駆動型の設計戦略",
+    "description": "",
+    "datePublished": "2026-04-25",
+    "dateModified": "2026-04-25",
+    "author": {"@type": "Organization", "name": "CDISC Standards Navigator"},
+    "publisher": {"@type": "Organization", "name": "CDISC Standards Navigator"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://pharmaworkerka.github.io/cdisc-navigator/articles/adam.html"}
+    ,"image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80"
+    ,"keywords": "自動生成, ブログ, 記事, SEO, 最新"
+}
+</script>
+
+
 
     <style>
         /* =============================================
@@ -714,14 +721,6 @@
                 <nav class="site-nav" id="siteNav">
                     <a href="https://pharmaworkerka.github.io/cdisc-navigator/index.html">ホーム</a>
                     
-
-<a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html">規制当局対応</a>
-
-<a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html">SDTM実装ガイド</a>
-
-<a href="https://pharmaworkerka.github.io/cdisc-navigator/category/ADaM設計パターン.html">ADaM設計パターン</a>
-
-
                     <a href="https://pharmaworkerka.github.io/cdisc-navigator/feed.xml">RSS</a>
                 </nav>
 
@@ -739,238 +738,146 @@
     
     <main class="container">
         
-
-<section style="padding:3.5rem 0 2.5rem;text-align:center;">
-    <h1 style="margin-bottom:0.75rem;">CDISC Standards Navigator</h1>
-    <p class="text-muted" style="font-size:clamp(0.95rem,1.2vw+0.5rem,1.15rem);max-width:600px;margin:0 auto 1.5rem;line-height:1.7;">CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。</p>
-    
-    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.5rem;">
-        
-        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="tag" style="font-size:0.82rem;padding:0.3em 0.85em;">規制当局対応 <span style="opacity:0.6;margin-left:0.25em;">(17)</span></a>
-        
-        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html" class="tag" style="font-size:0.82rem;padding:0.3em 0.85em;">SDTM実装ガイド <span style="opacity:0.6;margin-left:0.25em;">(1)</span></a>
-        
-        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/ADaM設計パターン.html" class="tag" style="font-size:0.82rem;padding:0.3em 0.85em;">ADaM設計パターン <span style="opacity:0.6;margin-left:0.25em;">(4)</span></a>
-        
-    </div>
-    
-</section>
-
 <div class="layout-main">
     <div class="content-area">
-        
-        <div class="card-grid">
+        <nav class="breadcrumb" aria-label="パンくずリスト">
+            <a href="https://pharmaworkerka.github.io/cdisc-navigator/index.html">ホーム</a>
+            <span class="breadcrumb-sep">/</span>
             
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/oncology-dose-setting-midd-regulatory-science.html">オンコロジー用量設定：MIDDと規制科学最前線</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="category-badge">規制当局対応</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">MIDD</span><span class="tag">オンコロジー</span><span class="tag">用量設定</span></div>
-                </div>
-            </article>
+            <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/ADaM設計パターン.html">ADaM設計パターン</a>
+            <span class="breadcrumb-sep">/</span>
             
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/middfda.html">MIDDとオンコロジー用量選択：FDA規制科学の最前線</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="category-badge">規制当局対応</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">自動生成</span><span class="tag">ブログ</span><span class="tag">記事</span></div>
-                </div>
-            </article>
-            
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html">PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html" class="category-badge">SDTM実装ガイド</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">自動生成</span><span class="tag">ブログ</span><span class="tag">記事</span></div>
-                </div>
-            </article>
-            
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-oncology-dose-selection-adam-regulatory.html">MIDD×ADaM！オンコロジー用量選択の規制戦略</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/ADaM設計パターン.html" class="category-badge">ADaM設計パターン</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">CDISC</span><span class="tag">ADaM</span><span class="tag">MIDD</span></div>
-                </div>
-            </article>
-            
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-cdisc.html">MIDDで癌治療の用量選択を最適化：規制当局と臨床データ活用の最新動向</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="category-badge">規制当局対応</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">MIDD</span><span class="tag">癌治療</span><span class="tag">用量選択</span></div>
-                </div>
-            </article>
-            
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/---pmda-fda-.html">承認審査と規制当局への臨床データ提出：PMDA/FDA要件完全ガイド</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="category-badge">規制当局対応</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">CDISC</span><span class="tag">SDTM</span><span class="tag">ADaM</span></div>
-                </div>
-            </article>
-            
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/pk-analysis-cdisc-sdtm-adam-sas-workflow.html">PK解析をCDISC標準で効率化！SDTM・ADaM・SASワークフロー徹底解説</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/ADaM設計パターン.html" class="category-badge">ADaM設計パターン</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">PK解析</span><span class="tag">薬物動態</span><span class="tag">ADaM</span></div>
-                </div>
-            </article>
-            
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/pmda-clinical-data-submission-regulatory-compliance-guide.html">PMDA承認審査：臨床データ提出と規制対応ガイド</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="category-badge">規制当局対応</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">承認審査</span><span class="tag">PMDA</span><span class="tag">臨床データ提出</span></div>
-                </div>
-            </article>
-            
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-oncology-dose-selection-adam-regulatory-update.html">MIDDで加速！オンコロジー用量選択とADaM解析：日米欧規制当局の最新動向</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="category-badge">規制当局対応</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">MIDD</span><span class="tag">オンコロジー</span><span class="tag">用量選択</span></div>
-                </div>
-            </article>
-            
-            <article class="card">
-                
-                <div class="card-thumb" style="background: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
-                </div>
-                
-                <div class="card-body">
-                    <h2 class="card-title"><a href="https://pharmaworkerka.github.io/cdisc-navigator/articles/pmdafda.html">PMDA・FDA承認審査を乗り切る！臨床データ提出の最新要件と実務</a></h2>
-                    <div class="card-meta">
-                        <span>2026-04-25</span>
-                        <span class="reading-time">3分で読める</span>
-                        <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html" class="category-badge">規制当局対応</a>
-                    </div>
-                    
-                    <div class="card-tags"><span class="tag">自動生成</span><span class="tag">ブログ</span><span class="tag">記事</span></div>
-                </div>
-            </article>
-            
-        </div>
-        
-
-        
-        <nav class="pagination">
-            
-            
-                <span class="current">1</span>
-                
-            
-                <a href="https://pharmaworkerka.github.io/cdisc-navigator/page/2.html">2</a>
-            
-                <a href="https://pharmaworkerka.github.io/cdisc-navigator/page/3.html">3</a>
-            
-            <a href="https://pharmaworkerka.github.io/cdisc-navigator/page/2.html">次へ &raquo;</a>
+            <span>腫瘍学ADaM：用量選択とモデル駆動型の設計戦略</span>
         </nav>
+
+        <article>
+            
+            
+            <div class="article-hero" style="background: url('https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80') center/cover no-repeat;">
+                <div class="article-hero-overlay"></div>
+            </div>
+            
+
+            <header class="article-header">
+                <h1 class="article-title">腫瘍学ADaM：用量選択とモデル駆動型の設計戦略</h1>
+                <div class="article-meta">
+                    <span>2026-04-25</span>
+                    <span class="reading-time">3分で読める</span>
+                    <a href="https://pharmaworkerka.github.io/cdisc-navigator/category/ADaM設計パターン.html" class="category-badge">ADaM設計パターン</a>
+                </div>
+                <div class="card-tags mt-1"><span class="tag">自動生成</span><span class="tag">ブログ</span><span class="tag">記事</span><span class="tag">SEO</span><span class="tag">最新</span></div>
+            </header>
+
+            
+
+            
+            <details class="toc-container" open>
+                <summary class="toc-title" style="cursor:pointer;user-select:none;">目次</summary>
+                <div class="toc"><span class="toctitle">目次</span><ul>
+<li><a href="#_1">この記事でわかること</a></li>
+<li><a href="#_2">結論から言うと</a></li>
+<li><a href="#adam_1">ADaM、用量選択、腫瘍学、モデル駆動型とは？</a><ul>
+<li><a href="#adam-analysis-data-model">ADaM (Analysis Data Model) とは？</a></li>
+<li><a href="#dose-selection">用量選択 (Dose Selection) とは？</a></li>
+<li><a href="#oncology">腫瘍学 (Oncology) とは？</a></li>
+<li><a href="#model-driven">モデル駆動型 (Model-Driven) アプローチとは？</a></li>
+</ul>
+</li>
+<li><a href="#adam-bds">実務での使い方・実装手順：用量選択のためのADaM BDS設計</a><ul>
+<li><a href="#1">ステップ1：必要な情報の洗い出し</a></li>
+<li><a href="#2adam-bds-adexpo_onc">ステ2：ADaM BDSの設計例 (ADEXPO_ONC)</a></li>
+<li><a href="#3sasbds">ステップ3：SASコード例（BDSの構築と変数導出）</a></li>
+</ul>
+</li>
+<li><a href="#cdisc">CDISC実務に役立つリソース</a></li>
+</ul>
+</div>
+
+            </details>
+            
+
+            <div class="article-body"><h1 id="adam">腫瘍学ADaM：用量選択とモデル駆動型の設計戦略</h1>
+<p><img alt="腫瘍学ADaM：用量選択とモデル駆動型の設計戦略" src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&amp;h=630&amp;fit=crop&amp;auto=format&amp;q=80" /></p>
+<p><em>Photo from <a href="https://unsplash.com/">Unsplash</a></em></p>
+<p>「CDISC Standards Navigator」へようこそ！ベテランSASプログラマーとして、FDA/PMDA双方への申請経験を活かし、CDISC (Clinical Data Interchange Standards Consortium) データ標準の最新動向を分かりやすくお届けします。</p>
+<p>本記事では、<strong>ADaM (Analysis Data Model)</strong> データセット、特に<strong>用量選択 (Dose Selection)</strong> が重要な<strong>腫瘍学 (Oncology)</strong> 領域における<strong>モデル駆動型 (Model-Driven)</strong> アプローチの設計戦略に焦点を当てます。日本の製薬企業やCRO (Contract Research Organization) の皆様が、海外の最新トレンドを日本の実務に落とし込めるよう、具体的なADaM設計パターンやSASコード例を交えて解説いたします。</p>
+<h2 id="_1">この記事でわかること</h2>
+<ul>
+<li>腫瘍学領域におけるADaMデータセット設計の特殊性と重要性</li>
+<li>用量選択試験においてモデル駆動型アプローチをADaMに組み込む方法</li>
+<li>モデル駆動型開発を支援するADaM BDS (Basic Data Structure) の具体的な設計パターンとSASコード</li>
+<li>FDA/EMAにおけるモデル駆動型開発の最新動向とPMDAへの申請における考慮点</li>
+<li>ADaM設計時のよくある課題と解決策、Pinnacle 21バリデーションのヒント</li>
+</ul>
+<h2 id="_2">結論から言うと</h2>
+<p>腫瘍学における用量選択は複雑ですが、ADaMの柔軟性を活かし、<strong>モデル駆動型アプローチ</strong>を早期から取り入れることで、より効率的かつ科学的に妥当な解析が可能です。特に、PK/PD (薬物動態/薬力学) や曝露反応関係をADaM BDSに統合し、明確なトレーサビリティを確保することが、FDA/PMDA双方への申請成功の鍵となります。</p>
+<h2 id="adam_1">ADaM、用量選択、腫瘍学、モデル駆動型とは？</h2>
+<h3 id="adam-analysis-data-model">ADaM (Analysis Data Model) とは？</h3>
+<p>ADaMは、統計解析の準備ができたデータセットの標準です。SDTM (Study Data Tabulation Model) データセットから派生し、解析に必要な変数を追加・変換・集計することで、解析作業の効率化と再現性向上を目的としています。主要な構造として、個体レベルの解析データセットであるADSL (Subject-Level Analysis Dataset) と、より詳細な解析をサポートするBDS (Basic Data Structure) があります。ADaMはCDISC標準の一部として、規制当局へのデータ提出に不可欠です。</p>
+<h3 id="dose-selection">用量選択 (Dose Selection) とは？</h3>
+<p>新薬開発において、安全性と有効性のバランスが最も良い「最適な用量」を決定するプロセスです。特に抗がん剤の場合、治療域が狭く、毒性発現と効果発現が密接に関連するため、用量選択は非常にデリケートかつ重要な課題となります。</p>
+<h3 id="oncology">腫瘍学 (Oncology) とは？</h3>
+<p>がんを研究・治療する医学分野です。抗がん剤開発は、他の疾患領域と異なり、以下のような特殊性があります。
+*   <strong>エンドポイントの多様性</strong>: 奏効率 (Overall Response Rate, ORR)、無増悪生存期間 (Progression-Free Survival, PFS)、全生存期間 (Overall Survival, OS) など。
+*   <strong>測定の複雑性</strong>: RECIST (Response Evaluation Criteria in Solid Tumors) などの基準に基づく腫瘍径測定。
+*   <strong>データ構造の複雑性</strong>: 複数回の腫瘍評価、併用療法、前治療の影響など。</p>
+<h3 id="model-driven">モデル駆動型 (Model-Driven) アプローチとは？</h3>
+<p>薬物動態 (PK) モデル、薬力学 (PD) モデル、曝露反応 (Exposure-Response, E-R) モデル、疾患モデルなどを活用し、薬剤の挙動や効果、安全性を定量的に予測・シミュレーションするアプローチです。これにより、臨床試験のデザイン最適化、用量設定の効率化、特定患者集団への個別化医療の推進などが期待されます。FDA (米国食品医薬品局) やEMA (欧州医薬品庁) は、医薬品開発におけるモデル駆動型アプローチの活用を積極的に推奨しています。</p>
+<h2 id="adam-bds">実務での使い方・実装手順：用量選択のためのADaM BDS設計</h2>
+<p>腫瘍学の用量選択試験において、モデル駆動型アプローチの結果をADaMに統合する設計パターンを見ていきましょう。ここでは、曝露量（例：AUC）に基づく用量群、腫瘍反応、およびモデルから導出された最適な用量指標を統合したADaM BDSを想定します。</p>
+<h3 id="1">ステップ1：必要な情報の洗い出し</h3>
+<ul>
+<li>被験者レベルの情報 (ADSLからのキー変数: USUBJID, TRTDOS)</li>
+<li>PKデータ (曝露量: AUC, Cmaxなど) → SDTM PP (Pharmacokinetics Parameters) ドメインから派生</li>
+<li>腫瘍評価データ (RECISTに基づく奏効、評価日など) → SDTM TR (Tumor Results), TU (Tumor) ドメインから派生</li>
+<li>安全性データ (特に用量制限毒性; DLT) → SDTM AE (Adverse Events) ドメインから派生</li>
+<li>モデルから導出された変数 (例：曝露量目標値、最適なAUC範囲インジケータなど)</li>
+</ul>
+<h3 id="2adam-bds-adexpo_onc">ステ2：ADaM BDSの設計例 (ADEXPO_ONC)</h3>
+<p>用量選択を目的とした曝露・反応解析用のBDS (例: <code>ADEXPO_ONC</code>) を設計します。このデータセットは、個体レベルのPK曝露量と対応する腫瘍反応、および用量選択を支援するモデル由来の指標を含みます。</p>
+<p><strong>主要な変数例:</strong>
+| 変数名 | ラベル | 説明 | ソース/導出元 |
+| :----- | :---------------- | :------------------------------------------- | :--------------------------- |
+| USUBJID | Unique Subject Identifier | 被験者識別子 | ADSL, SDTM |
+| TRTDOS | Actual Dose Administered | 投与量 (mg) | ADSL |
+| PKVAL   | PK Parameter Value (e.g., AUC) | 個体曝露量 (AUCinf) | SDTM.PP, NONMEMモデル |
+| PKGRP   | PK Exposure Group | 曝露量に基づくグループ | PKVALをカテゴリ化 |
+| ADY     | Analysis Day | 解析日 | SDTM.EX, VSなどから導出 |
+| AVALC   | Best Overall Response | 最良総合効果 (CR, PR, SD, PD) | SDTM.TRからRECIST評価に基づき導出 |
+| AVAL    | Responder Indicator | 奏功判定 (1=Responder, 0=Non-Responder) | AVALCから導出 (CR/PR=1) |
+| AOPTIND | Optimal Exposure Indicator | モデル最適な曝露範囲インジケータ (1=Yes, 0=No) | モデル予測値とPKVALを比較して導出 |
+| DLTFL   | Dose Limiting Toxicity Flag | 用量制限毒性発現フラグ (Y/N) | SDTM.AEから導出 |</p>
+<h3 id="3sasbds">ステップ3：SASコード例（BDSの構築と変数導出）</h3>
+<p>以下に、<code>ADEXPO_ONC</code>データセットの一部を構築するためのSASコード例を示します。ここでは、PKGRPとAOPTINDの導出に焦点を当てます。</p>
+<p>```sas
+/<em> 1. ADSLとPKパラメータの結合 (PKパラメータはSDTM PPから事前に計算済みと仮定) </em>/
+/<em>    ここでは例として、ADSLにPKデータが結合されていると仮定します </em>/
+DATA WORK.ADSL_PK;
+    MERGE ADSL(IN=A) SDTM.PP_DERIVED(IN=P KEEP=USUBJID PKVAL); /<em> PP_DERIVEDはAUCinfなど個体PK値を持つと仮定 </em>/
+    BY USUBJID;
+    IF A;
+    LABEL PKVAL = </p>
+<h2 id="cdisc">CDISC実務に役立つリソース</h2>
+<p>この記事の内容をさらに深めるために、以下のリソースが役立ちます。</p>
+<ul>
+<li><strong><a href="https://www.amazon.co.jp?tag=musclelove07-22">Amazon CDISC書籍</a></strong> - CDISC・臨床データ標準の参考書</li>
+<li><strong><a href="https://www.udemy.com">Udemy SAS講座</a></strong> - 動画で学ぶCDISC実装</li>
+<li><strong><a href="https://www.rakuten.co.jp">楽天 医薬品開発書籍</a></strong> - 製薬・臨床開発の参考書</li>
+</ul>
+<p><em>上記リンクからご利用いただくと、サイト運営の支援になります。</em></p></div>
+
+            
+
+            <div class="share-buttons">
+                <a class="share-btn share-btn-twitter" href="https://twitter.com/intent/tweet?url=https://pharmaworkerka.github.io/cdisc-navigator/articles/adam.html&text=腫瘍学ADaM：用量選択とモデル駆動型の設計戦略" target="_blank" rel="noopener noreferrer">X でシェア</a>
+                <a class="share-btn share-btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://pharmaworkerka.github.io/cdisc-navigator/articles/adam.html" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a class="share-btn share-btn-hatena" href="https://b.hatena.ne.jp/add?mode=confirm&url=https://pharmaworkerka.github.io/cdisc-navigator/articles/adam.html&title=腫瘍学ADaM：用量選択とモデル駆動型の設計戦略" target="_blank" rel="noopener noreferrer">はてブ</a>
+                <a class="share-btn share-btn-line" href="https://social-plugins.line.me/lineit/share?url=https://pharmaworkerka.github.io/cdisc-navigator/articles/adam.html" target="_blank" rel="noopener noreferrer">LINE</a>
+            </div>
+        </article>
+
         
     </div>
-
-    <aside class="sidebar">
-        <div class="sidebar-widget">
-            <h3 class="sidebar-widget-title">カテゴリ</h3>
-            
-            <ul class="sidebar-category-list">
-                
-                <li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html">規制当局対応<span class="sidebar-category-count">17</span></a></li>
-                
-                <li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html">SDTM実装ガイド<span class="sidebar-category-count">1</span></a></li>
-                
-                <li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/ADaM設計パターン.html">ADaM設計パターン<span class="sidebar-category-count">4</span></a></li>
-                
-            </ul>
-            
-        </div>
-        <div class="sidebar-widget">
-            <h3 class="sidebar-widget-title">このブログについて</h3>
-            <p class="text-muted" style="font-size:0.88rem;line-height:1.7;">CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。</p>
-        </div>
-        
-    </aside>
 </div>
 
     </main>
@@ -1022,15 +929,7 @@
                 </div>
                 <div class="footer-section">
                     <h4>カテゴリ</h4>
-                    <ul class="footer-links">
-
-<li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/規制当局対応.html">規制当局対応（17）</a></li>
-
-<li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/SDTM実装ガイド.html">SDTM実装ガイド（1）</a></li>
-
-<li><a href="https://pharmaworkerka.github.io/cdisc-navigator/category/ADaM設計パターン.html">ADaM設計パターン（4）</a></li>
-
-</ul>
+                    <ul class="footer-links"></ul>
                 </div>
                 <div class="footer-section">
                     <h4>リンク</h4>

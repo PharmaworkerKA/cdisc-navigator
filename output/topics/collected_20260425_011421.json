@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-04-25T01:14:21.312040",
+  "total_count": 5,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 90,
+      "category": "ADaM設計パターン",
+      "blog_title": "【翻訳】オンコロジー領域におけるモデル情報駆動型用量選択とADaMデータの重要性",
+      "keyword": "ADaM, 用量選択, 腫瘍学, モデル駆動型"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】承認審査プロセスにおける臨床データ提出の重要ポイント",
+      "keyword": "承認審査, 規制当局, データ提出"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "ADaM設計パターン",
+      "blog_title": "【翻訳】Charles Riverにおける薬物動態データワークフローの効率化とADaM活用の可能性",
+      "keyword": "PKデータ, 薬物動態, ワークフロー, ADaM"
+    },
+    {
+      "title": "SCDM EMEA 2026",
+      "url": "https://www.certara.com/conference/scdm-emea/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】SCDM EMEA 2026で議論される臨床データ管理の最新動向",
+      "keyword": "SCDM, 臨床データ管理, 海外トレンド"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】Biohaven社Nurtec™の医薬品開発物語から学ぶデータ戦略",
+      "keyword": "医薬品開発, 臨床試験, 規制申請"
+    }
+  ]
+}
