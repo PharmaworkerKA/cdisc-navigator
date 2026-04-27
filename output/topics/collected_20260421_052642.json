@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-04-21T05:26:42.169456",
+  "total_count": 5,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 78,
+      "category": "規制当局対応",
+      "blog_title": "がん領域の用量選択を加速！MIDDと規制当局の信頼獲得術",
+      "keyword": "MIDD, がん領域, 用量選択, 規制科学, 臨床開発"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "PMDA承認審査に必須！CDISCデータ提出の戦略と実践",
+      "keyword": "承認審査, PMDA, CDISC提出, 規制対応"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 65,
+      "category": "規制当局対応",
+      "blog_title": "Nurtec開発秘話から学ぶ：成功する規制当局提出のデータ戦略",
+      "keyword": "医薬品開発, 規制提出, 臨床データ戦略, 成功事例"
+    },
+    {
+      "title": "SCDM EMEA 2026",
+      "url": "https://www.certara.com/conference/scdm-emea/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "SCDM EMEA 2026速報：臨床データ管理の最新動向を深掘り",
+      "keyword": "SCDM, 臨床データ管理, グローバルトレンド, データマネジメント"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 45,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "CROのPKデータ管理：チャールズリバーの効率化事例から学ぶ",
+      "keyword": "PKデータ, CRO, ワークフロー改善, 臨床データ"
+    }
+  ]
+}

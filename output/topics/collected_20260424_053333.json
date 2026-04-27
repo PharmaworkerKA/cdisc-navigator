@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-04-24T05:33:33.012832",
+  "total_count": 5,
+  "topics": [
+    {
+      "title": "SCDM EMEA 2026",
+      "url": "https://www.certara.com/conference/scdm-emea/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 90,
+      "category": "CDISC最新アップデート",
+      "blog_title": "【翻訳】SCDM EMEA 2026速報：臨床データ管理の最新動向とCDISC",
+      "keyword": "SCDM, 臨床データ管理, CDISC, 海外会議"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "SDTM実装ガイド",
+      "blog_title": "【翻訳】チャールズリバーのPKワークフロー改善から学ぶCDISCデータ標準活用術",
+      "keyword": "薬物動態, PKデータ, SDTM, ADaM, データ標準"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】承認審査プロセスと臨床データ提出の重要ポイント",
+      "keyword": "承認審査, 規制提出, 臨床データ提出"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】オンコロジー用量選択におけるMIDD：臨床データの規制提出への影響",
+      "keyword": "MIDD, オンコロジー, 規制提出, モデルベース開発, 臨床データ"
+    },
+    {
+      "title": "EMWA Spring Conference 2026",
+      "url": "https://www.certara.com/conference/emwa-spring-conference/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】EMWA Spring Conference 2026：規制提出ドキュメント作成の進化",
+      "keyword": "医療ライティング, 規制提出, ドキュメント作成"
+    }
+  ]
+}

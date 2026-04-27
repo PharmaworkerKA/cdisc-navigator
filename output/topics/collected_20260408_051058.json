@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-04-08T05:10:58.932077",
+  "total_count": 3,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "がん領域の用量選択におけるモデルインフォームド開発の信頼性向上：規制要件とデータ活用戦略",
+      "keyword": "MIDD, 癌治療, 用量選択, 規制当局, 臨床データ活用"
+    },
+    {
+      "title": "Certara IQ™ Workshop",
+      "url": "https://www.certara.com/live-events/certara-iq-workshop/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "Certara IQ™ワークショップで学ぶ：モデルベース開発と規制対応の最前線",
+      "keyword": "Certara IQ, モデルベース開発, 規制当局, 薬物動態"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 65,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "Charles River社における薬物動態（PK）ワークフロー改善事例：臨床データ管理効率化のヒント",
+      "keyword": "PKデータ, ワークフロー改善, CRO, 臨床データ管理, CDISC"
+    }
+  ]
+}

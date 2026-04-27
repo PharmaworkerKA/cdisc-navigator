@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-05T05:10:44.595976",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【最新規制動向】腫瘍領域におけるモデル予測を活用した用量選択と信頼性確保",
+      "keyword": "MIDD, モデル予測, 腫瘍, 用量選択, 規制当局, 臨床データ, データサイエンス"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【規制対応の要】承認審査における臨床データ提出の成功戦略",
+      "keyword": "承認審査, 臨床データ提出, 規制当局, PMDA, FDA, データ標準"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 60,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【海外事例解説】Biohaven社Nurtec™開発から学ぶ、データで切り拓く医薬品成功への道",
+      "keyword": "医薬品開発, 臨床データ, Nurtec, 成功事例, 規制戦略, 海外トレンド"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "【CRO事例】チャールズリバー社に見る薬物動態（PK）データ処理ワークフロー改善のヒント",
+      "keyword": "PKデータ, 薬物動態, CRO, データ管理, ワークフロー効率化, 臨床試験"
+    }
+  ]
+}

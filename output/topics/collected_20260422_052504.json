@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-22T05:25:04.013526",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】承認審査における臨床データ提出の課題とCDISCの役割",
+      "keyword": "承認審査, 臨床データ提出, 規制当局, PMDA, FDA"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 72,
+      "category": "ADaM設計パターン",
+      "blog_title": "【翻訳】がん領域の用量選択におけるモデル主導型アプローチとADaMデータセットの活用",
+      "keyword": "がん治療, 用量選択, モデル主導型, ADaM, 臨床データ解析, 規制提出"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 68,
+      "category": "SDTM実装ガイド",
+      "blog_title": "【翻訳】チャールズリバーにおける薬物動態（PK）データ解析ワークフローの効率化とCDISC SDTMの活用",
+      "keyword": "薬物動態, PKデータ, SDTM, ADaM, データ解析, 臨床データ, ワークフロー"
+    },
+    {
+      "title": "SCDM EMEA 2026",
+      "url": "https://www.certara.com/conference/scdm-emea/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 65,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】SCDM EMEA 2026：臨床データマネジメントの最新動向とCDISCへの示唆",
+      "keyword": "SCDM, 臨床データマネジメント, CDISC, 規制提出, 海外トレンド"
+    }
+  ]
+}

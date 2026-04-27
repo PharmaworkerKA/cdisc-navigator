@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-23T05:29:29.872452",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 85,
+      "category": "ADaM設計パターン",
+      "blog_title": "癌領域における用量選択のモデルアプローチ：ADaMデータセットの活用",
+      "keyword": "MIDD, ADaM, 癌臨床試験, 用量選択, 規制提出"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "承認審査プロセスにおける臨床データ提出：最新トレンドと規制要件",
+      "keyword": "承認審査, 臨床データ提出, 規制要件"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "SASコード実践",
+      "blog_title": "CROにおける薬物動態データ管理の効率化：CDISC標準活用事例",
+      "keyword": "薬物動態データ, PKデータ, 臨床データ管理, SAS"
+    },
+    {
+      "title": "SCDM EMEA 2026",
+      "url": "https://www.certara.com/conference/scdm-emea/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "海外トレンド翻訳",
+      "blog_title": "SCDM EMEA 2026 カンファレンス速報：臨床データ管理の未来",
+      "keyword": "臨床データ管理, SCDM, 海外会議"
+    }
+  ]
+}

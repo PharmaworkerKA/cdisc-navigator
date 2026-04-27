@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-04-16T05:30:16.520717",
+  "total_count": 3,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 85,
+      "category": "規制当局対応",
+      "blog_title": "モデルインフォームド開発（MIDD）が鍵！がん領域の最適用量選択と規制当局対応の最前線",
+      "keyword": "MIDD, モデルベース開発, がん領域, 用量選択, 規制科学, FDA"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "承認審査をスムーズに：臨床データ提出における規制当局の期待値とは？",
+      "keyword": "承認審査, PMDA, FDA, 臨床データ提出, 規制対応"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "効率的なPK解析ワークフロー構築の秘訣：Charles River社の事例から学ぶ",
+      "keyword": "薬物動態, PK解析, ワークフロー改善, データ管理, 臨床開発"
+    }
+  ]
+}

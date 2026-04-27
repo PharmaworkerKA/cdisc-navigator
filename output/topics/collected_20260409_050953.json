@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-04-09T05:09:53.177546",
+  "total_count": 5,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "承認審査における臨床データ提出のポイント",
+      "keyword": "承認審査, 規制当局, 臨床データ提出, PMDA, FDA"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 65,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【海外トレンド】モデルインフォームド創薬が導く、オンコロジー領域における最適用量選択",
+      "keyword": "オンコロジー, 用量選択, モデルインフォームド創薬, MIDD, 臨床データ解析, ADaM"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 58,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】チャールズリバー社における薬物動態（PK）ワークフロー改善事例",
+      "keyword": "薬物動態, PK, 臨床データ, データ管理, ワークフロー改善, Charles River"
+    },
+    {
+      "title": "Certara IQ™ Workshop",
+      "url": "https://www.certara.com/live-events/certara-iq-workshop/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【実践】Certara IQ™ワークショップから学ぶ、データ駆動型創薬のアプローチ",
+      "keyword": "Certara, ワークショップ, データ駆動型創薬, 臨床データ解析"
+    },
+    {
+      "title": "Certara IQ™Global Roadshow",
+      "url": "https://www.certara.com/live-events/certara-iq-global-roadshow/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【海外トレンド】Certara IQ™ Global Roadshowで学ぶ、最新のモデルインフォームド創薬トレンド",
+      "keyword": "Certara, モデルインフォームド創薬, PK/PD, データ解析, 臨床開発"
+    }
+  ]
+}

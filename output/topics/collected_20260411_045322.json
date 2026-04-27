@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-04-11T04:53:22.446224",
+  "total_count": 5,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 90,
+      "category": "規制当局対応",
+      "blog_title": "癌領域の用量選択：モデル予測がもたらす、規制提出への確信",
+      "keyword": "モデルベース創薬, 用量選択, 癌治療, 規制科学"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "チャールズ・リバー社に見る、PKデータ提出ワークフロー最適化の鍵",
+      "keyword": "薬物動態, PKデータ, ワークフロー改善, データ提出"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "臨床データ提出に必須！承認審査プロセスと対応のポイント",
+      "keyword": "承認審査, 規制当局, 臨床データ提出"
+    },
+    {
+      "title": "Certara IQ™Global Roadshow",
+      "url": "https://www.certara.com/live-events/certara-iq-global-roadshow/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "海外トレンド翻訳",
+      "blog_title": "Certara IQ™ グローバルロードショーから紐解く、最新の臨床開発トレンド",
+      "keyword": "Certara, 臨床開発トレンド, モデルベース創薬"
+    },
+    {
+      "title": "Certara IQ™ Workshop",
+      "url": "https://www.certara.com/live-events/certara-iq-workshop/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "Certara IQ™ ワークショップ体験記：臨床データ解析の効率化を学ぶ",
+      "keyword": "Certara IQ, 臨床データ解析, ワークショップ"
+    }
+  ]
+}

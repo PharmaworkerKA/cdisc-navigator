@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-04-15T05:22:28.696349",
+  "total_count": 3,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "承認審査を加速する：臨床データ規制対応の最新戦略",
+      "keyword": "承認審査, 臨床データ規制, PMDA, FDA, データ提出"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【海外トレンド】モデル予測で確信を高めるオンコロジー用量選択戦略",
+      "keyword": "MIDD, オンコロジー, 用量選択, 規制科学, 海外トレンド"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "Charles River社事例に学ぶ：PKデータ解析ワークフロー効率化の鍵",
+      "keyword": "PKデータ, 臨床データ管理, ワークフロー最適化, データ処理"
+    }
+  ]
+}

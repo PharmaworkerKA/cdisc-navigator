@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-24T05:34:13.497933",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】承認審査における臨床データ提出のポイントと留意事項",
+      "keyword": "承認審査, 規制当局, 臨床データ提出, PMDA, FDA"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 65,
+      "category": "ADaM設計パターン",
+      "blog_title": "【翻訳】モデル予測を用いた腫瘍領域における用量選択：ADaMデータセットの活用事例",
+      "keyword": "モデル予測, 腫瘍, 用量選択, ADaM, 臨床データ解析, MIDD"
+    },
+    {
+      "title": "SCDM EMEA 2026",
+      "url": "https://www.certara.com/conference/scdm-emea/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】SCDM EMEA 2026から見る最新臨床データ管理トレンドとCDISCの役割",
+      "keyword": "SCDM, 臨床データ管理, データマネジメント, 海外カンファレンス, CDISC"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "SASコード実践",
+      "blog_title": "【翻訳】チャールズリバーにおける薬物動態（PK）データ処理ワークフローの効率化とSAS活用",
+      "keyword": "薬物動態, PKデータ, 臨床データ, データ処理, SAS, Charles River"
+    }
+  ]
+}

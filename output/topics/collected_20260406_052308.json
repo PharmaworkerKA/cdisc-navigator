@@ -1,0 +1,72 @@
+{
+  "collected_at": "2026-04-06T05:23:08.773995",
+  "total_count": 6,
+  "topics": [
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 85,
+      "category": "SDTM実装ガイド",
+      "blog_title": "Charles River事例に学ぶ：PKデータワークフローにおけるCDISC標準最適化",
+      "keyword": "PKデータ, SDTM, ADaM, ワークフロー改善"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 78,
+      "category": "規制当局対応",
+      "blog_title": "オンコロジー用量選択におけるモデル活用：規制当局への「信頼」を築くデータ戦略",
+      "keyword": "オンコロジー, 用量選択, モデル解析, 規制当局"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 72,
+      "category": "規制当局対応",
+      "blog_title": "Nurtec™開発秘話：規制当局を納得させるデータ戦略",
+      "keyword": "医薬品開発, 規制戦略, 臨床データ提出"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 68,
+      "category": "規制当局対応",
+      "blog_title": "承認審査における臨床データ提出の成功要因",
+      "keyword": "承認審査, 規制提出, 臨床データ"
+    },
+    {
+      "title": "Certara IQ™Global Roadshow",
+      "url": "https://www.certara.com/live-events/certara-iq-global-roadshow/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "Certara IQ™ ロードショーから見る最新の薬物開発データプラットフォーム",
+      "keyword": "Certara, 臨床データ管理, 薬物開発"
+    },
+    {
+      "title": "Quantitative Systems Pharmacology Conference",
+      "url": "https://www.certara.com/conference/quantitative-systems-pharmacology-conference/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "海外トレンド翻訳",
+      "blog_title": "QSPカンファレンス報告：臨床データ活用の新潮流",
+      "keyword": "QSP, モデリング, 臨床データ活用"
+    }
+  ]
+}

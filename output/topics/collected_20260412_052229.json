@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-04-12T05:22:29.160185",
+  "total_count": 5,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "PMDA承認審査に必須！臨床データ提出の成功戦略",
+      "keyword": "PMDA承認審査, 臨床データ提出, 規制対応"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "規制当局を納得させる！がん領域におけるモデル利用型用量選択の信頼性構築",
+      "keyword": "MIDD, 用量選択, Oncology, 規制当局対応, 臨床試験データ解析"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "効率的な薬物動態解析へ！チャールズリバー社のワークフロー改善事例",
+      "keyword": "薬物動態解析, PKワークフロー, 臨床データ管理, Charles River"
+    },
+    {
+      "title": "Certara IQ™Global Roadshow",
+      "url": "https://www.certara.com/live-events/certara-iq-global-roadshow/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 45,
+      "category": "海外トレンド翻訳",
+      "blog_title": "Certara IQ™グローバルロードショーから探る、未来の臨床データ解析トレンド",
+      "keyword": "Certara IQ, 臨床データ解析, 薬物動態モデリング, 海外トレンド"
+    },
+    {
+      "title": "Certara IQ™ Workshop",
+      "url": "https://www.certara.com/live-events/certara-iq-workshop/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 45,
+      "category": "海外トレンド翻訳",
+      "blog_title": "Certara IQ™ワークショップ実践報告：製薬開発におけるデータ活用の最前線",
+      "keyword": "Certara IQ, ワークショップ, データ活用, 製薬開発"
+    }
+  ]
+}

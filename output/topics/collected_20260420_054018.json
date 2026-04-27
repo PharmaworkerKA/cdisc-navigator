@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-20T05:40:18.618496",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "承認審査における臨床データ提出のポイント",
+      "keyword": "PMDA承認審査, 臨床データ提出"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "癌治療におけるモデルを活用した用量選択：規制当局の期待とデータ活用",
+      "keyword": "MIDD, 癌治療, 用量設定, 規制科学"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "SASコード実践",
+      "blog_title": "チャールズ・リバー社における薬物動態（PK）解析ワークフロー改善の取り組み",
+      "keyword": "薬物動態データ, PK解析ワークフロー, SAS"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "海外トレンド翻訳",
+      "blog_title": "成功事例に学ぶ：Biohaven社のNurtec™開発と臨床データ活用の道のり",
+      "keyword": "医薬品開発成功事例, 臨床試験データ, 規制当局対応"
+    }
+  ]
+}

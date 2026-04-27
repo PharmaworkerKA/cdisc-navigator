@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-14T05:22:43.458676",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "承認審査における臨床データ提出の重要性と効率化のポイント",
+      "keyword": "承認審査, 臨床データ提出, PMDA, FDA"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "がん領域におけるモデル利用型用量選択：規制当局が求める信頼性データとは",
+      "keyword": "MIDD, 臨床薬理, 用量選択, がん治療, 規制科学"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【海外事例】チャールズリバーの薬物動態（PK）ワークフロー改善：データ効率化のヒント",
+      "keyword": "PKワークフロー, 臨床データ管理, CRO, データ効率化"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "規制当局対応",
+      "blog_title": "成功事例から学ぶ：Biohaven社Nurtec™開発の裏側とデータ活用戦略",
+      "keyword": "医薬品開発事例, 臨床試験, 規制申請"
+    }
+  ]
+}

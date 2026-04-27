@@ -1,0 +1,50 @@
+{
+  "collected_at": "2026-04-08T05:10:08.501745",
+  "total_count": 4,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】オンコロジー領域におけるモデル活用：規制要件を満たす用量選択の確信度を高める",
+      "keyword": "オンコロジー, 用量選択, モデル解析, MIDD, 規制当局, 臨床データ活用"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 60,
+      "category": "規制当局対応",
+      "blog_title": "【翻訳】成功事例に学ぶ：Biohaven社のNurtec™医薬品開発の軌跡と規制提出",
+      "keyword": "医薬品開発, 規制提出, 臨床開発, 成功事例, データ戦略"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】チャールズリバー社におけるPK（薬物動態）データ管理ワークフローの最適化",
+      "keyword": "薬物動態, PKデータ, データ管理, 臨床試験, ワークフロー, 海外事例"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 50,
+      "category": "規制当局対応",
+      "blog_title": "承認審査プロセスにおけるデータ提出のポイント",
+      "keyword": "承認審査, 規制当局, データ提出, 臨床データ"
+    }
+  ]
+}

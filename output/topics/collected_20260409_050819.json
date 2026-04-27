@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-04-09T05:08:19.890119",
+  "total_count": 5,
+  "topics": [
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "がん領域の用量選択：モデル主導型アプローチで規制当局の信頼を得る方法",
+      "keyword": "MIDD, モデルインフォームド薬物開発, 用量選択, がん臨床試験, 規制科学, 臨床試験デザイン"
+    },
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 70,
+      "category": "規制当局対応",
+      "blog_title": "【徹底解説】臨床データの承認審査と規制当局対応のポイント",
+      "keyword": "承認審査, 規制提出, 臨床データ, PMDA, FDA, データ申請"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "【事例から学ぶ】チャールズリバー社の薬物動態ワークフロー改善術",
+      "keyword": "薬物動態, PKデータ, 臨床データ管理, CRO, ワークフロー効率化"
+    },
+    {
+      "title": "Certara IQ™ Workshop",
+      "url": "https://www.certara.com/live-events/certara-iq-workshop/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 50,
+      "category": "海外トレンド翻訳",
+      "blog_title": "Certara IQワークショップ速報！最先端の臨床データ解析ツールとその応用",
+      "keyword": "Certara IQ, 臨床データ解析, 薬物動態モデリング, 海外トレンド"
+    },
+    {
+      "title": "Medicines that matter: Biohaven’s Nurtec™ drug development journey",
+      "url": "https://www.certara.com/case-study/biohaven/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 45,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "Biohaven Nurtec™開発秘話：成功に導いた臨床データ戦略とデータ管理の役割",
+      "keyword": "医薬品開発, 臨床データ戦略, Nurtec, ケーススタディ, データ管理"
+    }
+  ]
+}

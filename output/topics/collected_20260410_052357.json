@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-04-10T05:23:57.392792",
+  "total_count": 3,
+  "topics": [
+    {
+      "title": "æ¿èªå¯©æ»é¢é£æ¥­å",
+      "url": "https://www.pmda.go.jp/review-services/index.html",
+      "summary": "",
+      "published": "",
+      "source": "PMDA",
+      "score": 75,
+      "category": "規制当局対応",
+      "blog_title": "PMDA承認審査に備える！臨床データ提出の重要ポイント",
+      "keyword": "承認審査, 臨床データ提出, PMDA規制"
+    },
+    {
+      "title": "Model-Informed Confidence in Oncology Dose Selection",
+      "url": "https://www.certara.com/case-study/model-informed-confidence-in-oncology-dose-selection/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 70,
+      "category": "海外トレンド翻訳",
+      "blog_title": "【翻訳】オンコロジー領域におけるモデル予測を活用した最適な用量選択と信頼性確保",
+      "keyword": "モデル予測, 用量選択, オンコロジー臨床, M&S"
+    },
+    {
+      "title": "Enhancing Pharmacokinetics Workflows at Charles River",
+      "url": "https://www.certara.com/case-study/enhancing-pharmacokinetics-workflows-at-charles-river/",
+      "summary": "",
+      "published": "",
+      "source": "Pinnacle 21",
+      "score": 55,
+      "category": "臨床試験データ管理全般",
+      "blog_title": "【翻訳】チャールズリバー社が実践する薬物動態（PK）データ管理ワークフローの改善術",
+      "keyword": "PKデータ管理, 薬物動態ワークフロー, 臨床データ効率化"
+    }
+  ]
+}
