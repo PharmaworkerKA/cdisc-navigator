@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADaM Implementation Guide v1.4 主要追加と移行ロードマップ2026 | CDISC Standards Navigator</title>
+<meta name="description" content="ADaM IG v1.4で加わった主要記述の追加点（OCCDS、TTE、Subject-Levelの整理等）と、ADaM IG v1.3からの実務的な移行ロードマップを2026年Q2時点の現場目線で解説します。">
+<link rel="canonical" href="https://pharmaworkerka.github.io/cdisc-navigator/articles/2026-04-29-adam-ig-v1-4-additions-migration-roadmap.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ADaM Implementation Guide v1.4 主要追加と移行ロードマップ2026">
+<meta property="og:description" content="ADaM IG v1.4の主要追加と、v1.3からの段階的な移行ロードマップを実務目線で整理します。">
+<meta property="og:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=630&fit=crop&auto=format&q=80">
+<meta property="og:url" content="https://pharmaworkerka.github.io/cdisc-navigator/articles/2026-04-29-adam-ig-v1-4-additions-migration-roadmap.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=630&fit=crop&auto=format&q=80">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"ADaM Implementation Guide v1.4 主要追加と移行ロードマップ2026","image":"https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=630&fit=crop&auto=format&q=80","datePublished":"2026-04-29","dateModified":"2026-04-29","author":{"@type":"Organization","name":"CDISC Standards Navigator"},"publisher":{"@type":"Organization","name":"CDISC Standards Navigator"},"mainEntityOfPage":"https://pharmaworkerka.github.io/cdisc-navigator/articles/2026-04-29-adam-ig-v1-4-additions-migration-roadmap.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ADaM IG v1.4はv1.3から強制移行が必要ですか？","acceptedAnswer":{"@type":"Answer","text":"執筆時点（2026年Q2）で当局からv1.4必須とする統一通知は確認できておらず、v1.3で進行中の試験はv1.3を継続するのが一般的です。新規スタディから順次v1.4化するのが現実的です。"}},{"@type":"Question","name":"OCCDSの記述追加でデータ構造は変わりますか？","acceptedAnswer":{"@type":"Answer","text":"OCCDS自体の構造はBDSサブクラスとして従来から存在し、v1.4では記述の整理と派生例の充実が主で、変数構造そのものの破壊的変更は確認されていません。"}},{"@type":"Question","name":"Pinnacle 21はv1.4対応していますか？","acceptedAnswer":{"@type":"Answer","text":"Pinnacle 21 EnterpriseのValidatorは新IG公開後にルールセットが更新されるのが通例です。最新のルールセットバージョンを確認した上で適用する運用を推奨します。"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"CDISC Standards Navigator","item":"https://pharmaworkerka.github.io/cdisc-navigator/"},{"@type":"ListItem","position":2,"name":"記事","item":"https://pharmaworkerka.github.io/cdisc-navigator/index.html"},{"@type":"ListItem","position":3,"name":"ADaM IG v1.4 主要追加と移行ロードマップ"}]}</script>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body>
+<div data-tag="ml-pr-bar-v1" style="background:#fef3c7;color:#78350f;padding:6px 12px;text-align:center;font-size:12px;border-bottom:1px solid #fcd34d;font-family:system-ui,sans-serif;line-height:1.4">当サイトの記事には広告（アフィリエイトリンク）が含まれる場合があります。掲載順位や紹介内容は当サイトの編集方針に基づきます。</div>
+<nav class="filter-nav"><a href="../index.html" class="filter-btn">← トップに戻る</a></nav>
+<main class="article-body">
+<img class="article-hero-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=630&fit=crop&auto=format&q=80" alt="ADaM IG v1.4 主要追加と移行ロードマップ">
+<p class="article-meta">📅 2026-04-29 · 🏷️ CDISC・データ標準</p>
+<h1>ADaM Implementation Guide v1.4 主要追加と移行ロードマップ2026</h1>
+<p>ADaM Implementation Guide（ADaM IG）v1.4は、CDISCがv1.3の運用で蓄積されたQ&AやPHUSE等のフィードバックを反映して整備したマイナー改訂版で、2026年Q2時点で多くの企業が「次の標準」として評価フェーズに入っています。本稿ではv1.3との差分のうち実装に影響しやすい点を整理し、現場が無理なく取り組める移行ロードマップを提示します。情報はCDISC公式ドキュメントとPHUSE公開資料を参照し、執筆時点で確認できる範囲に限定しています。</p>
+
+<h2>追加点その1：OCCDSサブクラスの記述充実</h2>
+<p>v1.4では、OCCDS（Occurrence Data Structure）の記述が大幅に整理されました。OCCDSはADAE（有害事象解析）、ADCM（併用薬解析）、ADMH（病歴解析）など「発生事象」を扱うADaMサブクラスで、v1.3でも存在しましたが派生例や標準変数の説明にあいまいさが残っていた領域です。</p>
+<p>v1.4では、OCCDSの基本変数（AOCCFL、AOCCxFL、AOCCPFL等の発生フラグ）の意味と派生条件、Treatment Emergent判定（TRTEMFL）の典型例、SDTM側の参照タイミング、Predecessor Originの書き方が章ごとにまとめられました。実装上は変数構造の破壊的変更ではなく「あいまい解釈の是正」が主であり、既存パイプラインのロジック見直しが中心になります。</p>
+
+<h2>追加点その2：TTE（Time-to-Event）解析向けデータ構造の整理</h2>
+<p>ADTTE系の記述もv1.4で整理されました。CNSR（センサー）、AVAL（解析値=日数）、PARAMCD/PARAM、STARTDT/ADT/EVNTDESC等の標準変数の意味づけと、Death/Progression/Censoringの3区分の判定ロジックが章として独立しています。</p>
+<p>OnePiece的に「ADaM ADTTEといえば腫瘍OS/PFS」と思われがちですが、v1.4では循環器・腎疾患・希少疾患等での応用例も意識した一般化された書き方になっており、テンプレートの再利用性が高まります。社内で疾患領域別にADTTE生成プログラムを持つ企業は、共通部分を抽象化する好機です。</p>
+
+<h2>追加点その3：Subject-LevelデータセットとSDTM参照の整合</h2>
+<p>ADSL（Subject-Level Analysis Dataset）は全ADaMの起点となるため、v1.4ではADSLの標準変数とSDTM DM/SVドメインからの導出関係が改めて整理されました。SAFFL/ITTFL/EFFFL等の解析対象集団フラグの定義、Treatment Period（TRTSDT/TRTEDT）の境界条件、Stratification変数（STRATxV/STRATxN）の派生指針が明示化されています。</p>
+<p>これにより、ADSL生成スクリプトのテンプレート差し替えで対応できる部分が多く、移行コストは比較的軽量です。一方、Stratification変数の派生方法を社内独自ルールで運用していた企業は、v1.4の指針との乖離をレビューする必要があります。</p>
+
+<h2>v1.3からv1.4への移行ロードマップ</h2>
+<p>2026年Q2時点で当局からv1.4必須とする一斉通知は確認できておらず、現実的な移行は段階的に進めるべきです。標準担当者が次の優先順位で進めると現場負担を抑えられます。</p>
+<ol>
+<li><b>2026年新規スタディ：</b>プロトコル設計時点でADaM IG v1.4をターゲットとする。テンプレートADSL/ADAE/ADTTEをv1.4ベースに更新。</li>
+<li><b>v1.3で進行中スタディ：</b>原則v1.3のまま完走。途中でv1.4に切り替えるとValidator警告とDefine-XMLの整合修正が増える。</li>
+<li><b>統合解析（ISS/ISE）：</b>新規生成のISS/ISEはv1.4を採用検討。過去スタディのADaMをv1.4に巻き直す再構築は基本的に行わない。</li>
+<li><b>SOP・テンプレート：</b>社内のADaMプログラミングSOP、Define-XMLテンプレート、Pinnacle 21ルールセットのバージョンを揃えて凍結し、移行時点を明記。</li>
+</ol>
+
+<h2>実務でつまずきやすい論点</h2>
+<p>ADaM IG v1.4移行で実務上の落とし穴になりやすい点は以下です。</p>
+<ul>
+<li><b>OCCDSの再解釈：</b>v1.4の整理に沿うと、過去スタディのADAE発生フラグ派生ロジックに微差が出ることがあります。Pilotスタディで現行ロジックとの差分検証を必ず行う。</li>
+<li><b>ADTTEの一般化：</b>腫瘍領域専用に作り込まれたADTTEテンプレートは、v1.4の一般化された記述に合わせるとパラメータが増えがち。テンプレートを領域別と汎用で二層管理するのが現実的。</li>
+<li><b>Pinnacle 21ルールセット：</b>古いルールセットでv1.4のADaMを評価すると誤検知が出やすい。Validator側のバージョンと評価対象IG版を必ず一致させる。</li>
+<li><b>Define-XMLとの整合：</b>ADaM IGの版を上げる際、Define-XML側のStandardsエレメント（v2.1の場合）も同期して更新する必要がある。</li>
+</ul>
+
+<h2>まとめ</h2>
+<p>ADaM IG v1.4はv1.3からの破壊的変更こそ少ないものの、OCCDS/TTE/Subject-Level周辺の記述整理によって、実装ロジックや社内テンプレートに地味に効く改訂が積まれています。2026年Q2時点では、新規スタディから順次v1.4化、進行中スタディはv1.3継続という二層運用が現実解です。Pilot実装で挙動を確認し、Pinnacle 21ルールセットとDefine-XML側の版を揃えてから本番展開する流れを推奨します。標準改訂は申請データの品質を底上げする好機ですので、SOPとテンプレートの版管理を徹底して着実に取り込んでいきましょう。</p>
+
+<p style="color:#6b7280;font-size:0.8rem;margin-top:40px;">本記事は情報提供を目的としており、規制要件の最終確認は各国規制当局の公式ドキュメントを参照してください。実務適用の判断は読者の責任で行ってください。</p>
+<a href="../index.html" class="back-link">← 他の記事を見る</a>
+</main>
+<footer class="site-footer"><div class="footer-inner">
+<p class="copyright">© 2026 CDISC Standards Navigator</p>
+</div></footer>
+</body></html>
