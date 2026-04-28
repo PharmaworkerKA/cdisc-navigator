@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Define-XML 2.1 主要変更点と2026年移行戦略：SDTM/ADaMチームが押さえるべき実装ポイント | CDISC Standards Navigator</title>
+<meta name="description" content="Define-XML 2.0からv2.1への主要変更点（Standardsエレメント、新CodeList拡張、WhereClause扱い等）と、PMDA・FDA提出を見据えた2026年時点の現実的な移行戦略を解説。">
+<link rel="canonical" href="https://pharmaworkerka.github.io/cdisc-navigator/articles/2026-04-29-define-xml-2-1-migration-strategy.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Define-XML 2.1 主要変更点と2026年移行戦略">
+<meta property="og:description" content="Define-XML 2.1への移行を検討するSDTM/ADaMチーム向けに、v2.0との差分と段階的移行のポイントをまとめました。">
+<meta property="og:image" content="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=630&fit=crop&auto=format&q=80">
+<meta property="og:url" content="https://pharmaworkerka.github.io/cdisc-navigator/articles/2026-04-29-define-xml-2-1-migration-strategy.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=630&fit=crop&auto=format&q=80">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Define-XML 2.1 主要変更点と2026年移行戦略","image":"https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=630&fit=crop&auto=format&q=80","datePublished":"2026-04-29","author":{"@type":"Organization","name":"CDISC Standards Navigator"}}</script>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body>
+<div data-tag="ml-pr-bar-v1" style="background:#fef3c7;color:#78350f;padding:6px 12px;text-align:center;font-size:12px;border-bottom:1px solid #fcd34d;font-family:system-ui,sans-serif;line-height:1.4">当サイトの記事には広告（アフィリエイトリンク）が含まれる場合があります。掲載順位や紹介内容は当サイトの編集方針に基づきます。</div>
+<nav class="filter-nav"><a href="../index.html" class="filter-btn">← トップに戻る</a></nav>
+<main class="article-body">
+<img class="article-hero-img" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=630&fit=crop&auto=format&q=80" alt="Define-XML 2.1 主要変更点と移行戦略">
+<p class="article-meta">📅 2026-04-29 · 🏷️ CDISC・データ標準</p>
+<h1>Define-XML 2.1 主要変更点と2026年移行戦略：SDTM/ADaMチームが押さえるべき実装ポイント</h1>
+<p>Define-XML v2.1はCDISCが2021年に正式リリースしたメタデータ仕様で、2026年現在、FDAやPMDA向けに新規申請を開始するスタディから採用が進みつつあります。v2.0と比較して新しい標準参照モデルや拡張Code List機能が加わり、Define作成ツール（Pinnacle 21 Enterprise、SAS Clinical Standards Toolkit、自作XMLジェネレータ等）の運用にも影響します。本稿では現時点で確認できる主要変更点と、現実的な段階移行プランを実務目線で整理します。</p>
+
+<h2>変更点その1：Standardsエレメントによる参照標準の明示化</h2>
+<p>Define-XML v2.1の最大の構造的変化は、ルート直下にStandardsエレメントが追加された点です。v2.0では「このDefineはSDTMIG 3.3に準拠している」といった情報をMetaDataVersion属性やコメントで間接的に表現することが多かったのですが、v2.1からはStandardsブロックを宣言的に記述し、SDTMIG・ADaMIG・Controlled Terminology・SENDIG・SDTMIG-MD等のバージョンを明示します。</p>
+<p>これによりレビュアー側ツール（PMDA・FDAのレビュー用ビューア、Pinnacle 21等）が参照すべき標準セットを機械的に解釈できるようになります。実装上は、Defineを生成するスクリプトのテンプレート最上部に新たなセクションを追加するだけなので、移行コストは比較的低く済みます。</p>
+
+<h2>変更点その2：CodeListの拡張とNCI Controlled Terminology参照の改善</h2>
+<p>v2.1ではCodeListのサブセット表現が改善され、NCI/CDISC CTのコードリストを「親リスト＋スタディ固有のサブセット」として扱う表現が整理されました。v2.0でも擬似的に表現は可能でしたが、レビュアー側の解釈に揺れが生じやすかった部分です。</p>
+<p>現場では、ADaMの派生変数で使うフラグ系（ITTFL、SAFFL、EFFFL等）や試験固有のEvent名のCodeListをこの新形式で書き直すことになります。既存のSDTMマッピングからADaM派生までを一括で生成するパイプラインを持っている場合、CodeList生成部のテンプレート修正が必要です。</p>
+
+<h2>変更点その3：WhereClause、Origin、Comments まわりの細かい改善</h2>
+<p>WhereClauseのRangeCheck表現や、Origin（Collected/Derived/Assigned/Predecessor等）の選択肢の整理、Commentsのフォーマット推奨が明示化されました。これらは見た目の差は小さいものの、Pinnacle 21のFDA/PMDA Validatorルールセットでの判定に直接影響します。</p>
+<p>特にOriginの「Predecessor」を使うADaMデータセット（ADAEのSDTM AEドメイン参照など）では、参照先データセット名・変数名の表記方法が厳しめにバリデーションされる傾向があります。v2.1移行時には、ADaM Define側のOrigin記述を一通り見直すことを推奨します。</p>
+
+<h2>2026年時点の現実的な移行戦略</h2>
+<p>Define-XML 2.1への移行は「全社一斉」ではなく、申請単位・スタディ単位での段階移行が現実的です。社内のCDISC標準担当者が次の優先順位で進めるとリスクを抑えられます。</p>
+<ol>
+<li><b>新規プロトコル：</b>2026年以降にスタートアップを開始するスタディは最初からv2.1で設計。テンプレートDefineをv2.1ベースに更新する。</li>
+<li><b>進行中スタディ：</b>v2.0で提出済み・提出予定のスタディは原則v2.0のまま完走させる（移行による検証負荷とリスクが見合わない）。</li>
+<li><b>レガシースタディ：</b>過去申請の追補資料や統合解析（ISS/ISE）でDefineを再生成する場合のみ、v2.1への巻き直しを検討。</li>
+<li><b>ツール側対応：</b>Pinnacle 21 Enterpriseの最新Validator、SAS Clinical Standards Toolkit、社内自作XMLジェネレータをv2.1対応版に揃える。</li>
+</ol>
+<p>FDAおよびPMDAの最新の電子データ提出技術ガイダンスでは、v2.0とv2.1の併存が当面許容される運用となっており、提出時点で受理されている版を使用することが原則です。最終的な版選択は、提出先当局の最新Technical Conformance Guideを確認の上で判断してください。</p>
+
+<h2>実務でつまずきやすいポイント</h2>
+<p>Define-XML 2.1移行で実務上よく出るつまずきは次の3点です。</p>
+<ul>
+<li><b>古いPinnacle 21との非互換：</b>古いバージョンのPinnacle 21はv2.1のStandardsエレメントを認識せず、見かけ上のValidationエラーを大量に吐くことがあります。バリデータ側のバージョンを先に上げてから移行すること。</li>
+<li><b>社内テンプレートの上書き事故：</b>v2.0/v2.1テンプレートを同じパスで管理すると、過去スタディの再ビルド時に意図せずv2.1で生成されてしまう事故が起きます。テンプレートは版ごとに別ディレクトリで管理する。</li>
+<li><b>ADaMのPredecessor参照：</b>v2.1で表記が厳格化されているため、ADaM Defineを再生成すると今まで通っていたスタディでもValidator警告が新たに出ることがあります。事前にPilotスタディで一度フルバリデーションをかけておくと安全です。</li>
+</ul>
+
+<h2>まとめ</h2>
+<p>Define-XML 2.1はv2.0からの破壊的変更こそ少ないものの、Standardsエレメントの追加・CodeList拡張・Origin/WhereClause周辺の整理など、SDTM/ADaM側のメタデータ生成ロジックに地味に影響する変更が積まれています。2026年時点では新規スタディから順次v2.1化、進行中スタディはv2.0継続という二層運用が現実解です。社内テンプレート、バリデータ、ジェネレータの版管理を徹底し、Pilot実装で挙動を確認してから本番展開する流れを推奨します。Define-XMLは申請データ全体の「目次」であり、ここの品質が承認審査のスムーズさを左右します。</p>
+
+<p style="color:#6b7280;font-size:0.8rem;margin-top:40px;">本記事は情報提供を目的としており、規制要件の最終確認は各国規制当局の公式ドキュメントを参照してください。実務適用の判断は読者の責任で行ってください。</p>
+<a href="../index.html" class="back-link">← 他の記事を見る</a>
+</main>
+<footer class="site-footer"><div class="footer-inner">
+<p class="copyright">© 2026 CDISC Standards Navigator</p>
+</div></footer>
+</body></html>

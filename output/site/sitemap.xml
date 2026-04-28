@@ -162,4 +162,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://pharmaworkerka.github.io/cdisc-navigator/articles/2026-04-29-define-xml-2-1-migration-strategy.html</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
