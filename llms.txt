@@ -1,0 +1,35 @@
+# CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。
+
+> CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。
+
+## Main Pages
+
+- [Home](https://pharmaworkerka.github.io/cdisc-navigator/): main page of CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+
+## Articles (most recent)
+
+- [cdisc navigator](https://pharmaworkerka.github.io/cdisc-navigator): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [oncology dose setting midd regulatory science.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/oncology-dose-setting-midd-regulatory-science.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [middfda.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/middfda.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [pksdtmadam.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [midd oncology dose selection adam regulatory.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-oncology-dose-selection-adam-regulatory.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [midd cancer dose selection regulatory cdisc.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-cdisc.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [pmda fda .html](https://pharmaworkerka.github.io/cdisc-navigator/articles/---pmda-fda-.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [pk analysis cdisc sdtm adam sas workflow.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/pk-analysis-cdisc-sdtm-adam-sas-workflow.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [pmda clinical data submission regulatory compliance guide.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/pmda-clinical-data-submission-regulatory-compliance-guide.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [midd oncology dose selection adam regulatory update.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-oncology-dose-selection-adam-regulatory-update.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [pmdafda.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/pmdafda.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [fdapmda.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/fdapmda.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [midd cancer fda regulatory science.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-fda-regulatory-science.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [midd cancer dose selection regulatory science cdisc.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-science-cdisc.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [cdisc data pmda fda approval submission.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/cdisc-data-pmda-fda-approval-submission.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [midd cancer dose selection regulatory submission reliability.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-submission-reliability.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [pmda.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/pmda.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [midd oncology dose selection regulatory science clinical development.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-oncology-dose-selection-regulatory-science-clinical-development.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [midd adam cancer dose selection regulatory submission.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-adam-cancer-dose-selection-regulatory-submission.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+- [cdisc pmda fda data submission guide.html](https://pharmaworkerka.github.io/cdisc-navigator/articles/cdisc-pmda-fda-data-submission-guide.html): article on CDISC Standards Navigator - CDISCデータ標準（SDTM・ADaM・Define-XML）の実務ノウハウを毎日更新。海外の最新規制動向を日本語で翻訳・要約し、現場で使えるコード例とともに解説。.
+
+## About this file
+
+This llms.txt follows the llmstxt.org proposal and lists the main entry points of this site for LLM-based crawlers and AI search agents.
+Generated automatically from sitemap.xml. Source repository: https://github.com/MuscleLove-777/cdisc-navigator
